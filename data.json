@@ -110,6 +110,10 @@
     {
       "name": "Buffing Lathe",
       "icon": "🔧"
+    },
+    {
+      "name": "Buffing Sander",
+      "icon": "🔧"
     }
   ],
   "log": [],
