@@ -1,6 +1,11 @@
 {
   "pin": "1234",
-  "workers": [],
+  "workers": [
+    {
+      "name": "Ajit kaka",
+      "icon": "👤"
+    }
+  ],
   "tasks": [
     {
       "name": "VMC 1",
