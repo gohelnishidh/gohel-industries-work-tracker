@@ -114,6 +114,10 @@
     {
       "name": "Buffing Sander",
       "icon": "🔧"
+    },
+    {
+      "name": "Buffing Pipe",
+      "icon": "🔧"
     }
   ],
   "log": [],
