@@ -90,6 +90,10 @@
     {
       "name": "Material Loading",
       "icon": "🔧"
+    },
+    {
+      "name": "Deburring",
+      "icon": "🔧"
     }
   ],
   "log": [],
