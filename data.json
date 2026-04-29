@@ -122,6 +122,10 @@
     {
       "name": "Flange 0-100",
       "icon": "🔧"
+    },
+    {
+      "name": "Field Work",
+      "icon": "🔧"
     }
   ],
   "log": [],
