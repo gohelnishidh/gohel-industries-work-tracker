@@ -106,6 +106,10 @@
     {
       "name": "Buffing wheel",
       "icon": "🔧"
+    },
+    {
+      "name": "Buffing Lathe",
+      "icon": "🔧"
     }
   ],
   "log": [],
