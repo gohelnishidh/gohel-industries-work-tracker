@@ -126,6 +126,10 @@
     {
       "name": "Field Work",
       "icon": "🔧"
+    },
+    {
+      "name": "Machine Cleaning",
+      "icon": "🔧"
     }
   ],
   "log": [],
