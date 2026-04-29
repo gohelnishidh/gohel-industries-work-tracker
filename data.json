@@ -1,23 +1,6 @@
 {
   "pin": "1234",
-  "workers": [
-    {
-      "name": "Helper 2",
-      "icon": "ð§"
-    },
-    {
-      "name": "Helper 3",
-      "icon": "âï¸"
-    },
-    {
-      "name": "Helper 4",
-      "icon": "ð ï¸"
-    },
-    {
-      "name": "Helper 5",
-      "icon": "ð©"
-    }
-  ],
+  "workers": [],
   "tasks": [
     {
       "name": "VMC 1",
