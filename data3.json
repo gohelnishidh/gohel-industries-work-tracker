@@ -181,10 +181,10 @@
       "taskIcon": "ð§",
       "date": "29/4/2026",
       "start": "15:57",
-      "end": null,
+      "end": "16:40",
       "note": "",
-      "done": false,
-      "status": "running",
+      "done": true,
+      "status": "done",
       "breaks": [
         {
           "type": "tea",
