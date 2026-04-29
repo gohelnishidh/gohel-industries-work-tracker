@@ -2,62 +2,54 @@
   "pin": "1234",
   "workers": [
     {
-      "name": "Ajit kaka",
-      "icon": "👤"
-    },
-    {
       "name": "Alpesh",
-      "icon": "👤"
-    },
-    {
-      "name": "Hitesh",
-      "icon": "👤"
+      "icon": "ð¤"
     }
   ],
   "tasks": [
     {
       "name": "VMC 1",
-      "icon": "ð­"
+      "icon": "Ã°ÂÂÂ­"
     },
     {
       "name": "VMC 2",
-      "icon": "ð­"
+      "icon": "Ã°ÂÂÂ­"
     },
     {
       "name": "VMC 3",
-      "icon": "ð­"
+      "icon": "Ã°ÂÂÂ­"
     },
     {
       "name": "VMC 4",
-      "icon": "ð­"
+      "icon": "Ã°ÂÂÂ­"
     },
     {
       "name": "CNC 1",
-      "icon": "âï¸"
+      "icon": "Ã¢ÂÂÃ¯Â¸Â"
     },
     {
       "name": "CNC 2",
-      "icon": "âï¸"
+      "icon": "Ã¢ÂÂÃ¯Â¸Â"
     },
     {
       "name": "CNC 3",
-      "icon": "âï¸"
+      "icon": "Ã¢ÂÂÃ¯Â¸Â"
     },
     {
       "name": "CNC 4",
-      "icon": "âï¸"
+      "icon": "Ã¢ÂÂÃ¯Â¸Â"
     },
     {
       "name": "Quality Check",
-      "icon": "â"
+      "icon": "Ã¢ÂÂ"
     },
     {
       "name": "Cleaning",
-      "icon": "ð§¹"
+      "icon": "Ã°ÂÂ§Â¹"
     },
     {
       "name": "Packaging",
-      "icon": "ð¦"
+      "icon": "Ã°ÂÂÂ¦"
     }
   ],
   "log": [],
