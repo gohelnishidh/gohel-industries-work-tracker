@@ -152,10 +152,14 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "16:34",
-      "pauseReason": "teaBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "tea",
+          "start": "16:34",
+          "end": "16:34"
+        }
+      ]
     }
   ],
   "attendance": [],
@@ -163,9 +167,5 @@
     "lunch": "12:30 PM - 1:15 PM",
     "tea": "3:45 PM - 4:00 PM"
   },
-  "activeBreak": {
-    "type": "tea",
-    "startTime": "16:34",
-    "date": "29/4/2026"
-  }
+  "activeBreak": null
 }
