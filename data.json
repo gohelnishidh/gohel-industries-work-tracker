@@ -94,6 +94,10 @@
     {
       "name": "Deburring",
       "icon": "🔧"
+    },
+    {
+      "name": "Tapping",
+      "icon": "🔧"
     }
   ],
   "log": [],
