@@ -134,6 +134,10 @@
     {
       "name": "Scrap Removal",
       "icon": "🔧"
+    },
+    {
+      "name": "helicoil insert",
+      "icon": "🔧"
     }
   ],
   "log": [],
