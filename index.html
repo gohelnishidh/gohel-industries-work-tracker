@@ -72,6 +72,14 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-
 .wbtn.sel{background:var(--accent);border-color:var(--accent);color:var(--bg);}
 .wbtn.has-paused{border-color:var(--purple);}
 .wbtn .wi{font-size:20px;display:block;margin-bottom:3px;}
+.wletter{width:32px;height:32px;background:var(--accent);color:var(--bg);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Rajdhani',sans-serif;font-size:16px;font-weight:700;margin:0 auto 4px;}
+.wbtn.sel .wletter{background:var(--bg);color:var(--accent);}
+.tletter{width:28px;height:28px;background:var(--blue);color:#fff;border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'Rajdhani',sans-serif;font-size:14px;font-weight:700;margin:0 auto 3px;}
+.tbtn.sel .tletter{background:#fff;color:var(--blue);}
+.tbtn.busy .tletter{background:var(--danger);color:#fff;}
+.mletter{width:28px;height:28px;background:var(--accent2);color:var(--bg);border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'Rajdhani',sans-serif;font-size:14px;font-weight:700;margin:0 auto 4px;}
+.mtile.busy .mletter{background:var(--danger);}
+.mtile.paused .mletter{background:var(--purple);}
 .wbtn .wp{font-size:9px;color:var(--purple);letter-spacing:1px;display:block;margin-top:2px;}
 .wbtn .wa{font-size:9px;letter-spacing:1px;display:block;margin-top:2px;}
 .wbtn .wa.in{color:var(--accent2);}
@@ -134,7 +142,7 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-
 .att-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:16px;}
 .att-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;text-align:center;transition:all 0.2s;}
 .att-card .aw{font-family:'Rajdhani',sans-serif;font-size:18px;font-weight:700;margin-bottom:4px;}
-.att-card .ai{font-size:28px;display:block;margin-bottom:6px;}
+.att-card .ai{width:40px;height:40px;background:var(--accent);color:var(--bg);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:"Rajdhani",sans-serif;font-size:20px;font-weight:700;margin:0 auto 6px;}
 .att-card .ast{font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1px;padding:4px 10px;border-radius:4px;margin-bottom:8px;display:inline-block;}
 .ast.present{background:rgba(16,185,129,0.15);color:var(--accent2);}
 .ast.absent{background:rgba(100,116,139,0.15);color:var(--muted);}
@@ -357,7 +365,7 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-
         <div id="wManage"></div>
         <div class="addr">
           <input type="text" class="tinput" id="nwName" placeholder="Worker name">
-          <input type="text" class="tinput" id="nwIcon" placeholder="Emoji" style="max-width:90px">
+          <input type="text" class="tinput" id="nwIcon" placeholder="1 letter" style="max-width:90px">
           <button class="badd" onclick="addWorker()">ADD</button>
         </div>
       </div>
@@ -366,7 +374,7 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-
         <div id="tManage"></div>
         <div class="addr">
           <input type="text" class="tinput" id="ntName" placeholder="Machine name">
-          <input type="text" class="tinput" id="ntIcon" placeholder="Emoji" style="max-width:90px">
+          <input type="text" class="tinput" id="ntIcon" placeholder="1 letter" style="max-width:90px">
           <button class="badd" onclick="addTask()">ADD</button>
         </div>
       </div>
@@ -406,22 +414,31 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-
 const GH_TOKEN = ['ghp_dkqVfKuSeGsVv25Ne','ba35J4PAgoNpn0A9xw7'].join('');
 const GH_USER  = 'gohelnishidh';
 const GH_REPO  = 'gohel-industries-work-tracker';
-const GH_FILE  = 'data.json';
+const GH_FILE  = 'data3.json';
 const GH_API   = `https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${GH_FILE}`;
 
 const DEF = {
   pin:'1234',
   workers:[
-    {name:'Helper 1',icon:'👷'},{name:'Helper 2',icon:'🔧'},
-    {name:'Helper 3',icon:'⚙️'},{name:'Helper 4',icon:'🛠️'},
-    {name:'Helper 5',icon:'🔩'},
+    {name:'Ajit kaka',icon:'W'},{name:'Alpesh',icon:'W'},
+    {name:'Hitesh',icon:'W'},{name:'Indrajeet',icon:'W'},
+    {name:'Viraj',icon:'W'},{name:'Mehul',icon:'W'},
+    {name:'Bipin',icon:'W'},{name:'Raju Parmar',icon:'W'},
   ],
   tasks:[
-    {name:'VMC 1',icon:'🏭'},{name:'VMC 2',icon:'🏭'},
-    {name:'VMC 3',icon:'🏭'},{name:'VMC 4',icon:'🏭'},
-    {name:'CNC 1',icon:'⚙️'},{name:'CNC 2',icon:'⚙️'},
-    {name:'CNC 3',icon:'⚙️'},{name:'CNC 4',icon:'⚙️'},
-    {name:'Quality Check',icon:'✅'},{name:'Cleaning',icon:'🧹'},{name:'Packaging',icon:'📦'},
+    {name:'VMC 1',icon:'V'},{name:'VMC 2',icon:'V'},
+    {name:'VMC 3',icon:'V'},{name:'VMC 4',icon:'V'},
+    {name:'CNC 1',icon:'C'},{name:'CNC 2',icon:'C'},
+    {name:'CNC 3',icon:'C'},{name:'CNC 4',icon:'C'},
+    {name:'Quality Check',icon:'Q'},{name:'Cleaning',icon:'T'},
+    {name:'Packaging',icon:'P'},{name:'Material Handling',icon:'T'},
+    {name:'Material Unloading',icon:'T'},{name:'Material Loading',icon:'T'},
+    {name:'Deburring',icon:'T'},{name:'Tapping',icon:'T'},
+    {name:'Paper/Scotch Polish',icon:'T'},{name:'Buffing Wheel',icon:'T'},
+    {name:'Buffing Lathe',icon:'T'},{name:'Buffing Sander',icon:'T'},
+    {name:'Buffing Pipe',icon:'T'},{name:'Flange 0-100',icon:'T'},
+    {name:'Field Work',icon:'T'},{name:'Machine Cleaning',icon:'T'},
+    {name:'Scrap Removal',icon:'T'},{name:'Helicoil Insert',icon:'T'},
   ],
   log:[],
   attendance:[],
@@ -449,7 +466,10 @@ async function ghLoad(){
     if(r.status===404){setSI('ok','Ready');await ghSave();return;}
     const d=await r.json();
     fileSHA=d.sha; localStorage.setItem('gohel_sha5',fileSHA);
-    S=JSON.parse(atob(d.content.replace(/\n/g,'')));
+    const _raw=atob(d.content.replace(/\n/g,''));
+    const _bytes=new Uint8Array(_raw.length);
+    for(let i=0;i<_raw.length;i++)_bytes[i]=_raw.charCodeAt(i);
+    S=JSON.parse(new TextDecoder('utf-8').decode(_bytes));
     // Ensure new fields exist for old data
     if(!S.attendance) S.attendance=[];
     if(!S.breakTimings) S.breakTimings={lunch:'1:00 PM - 1:45 PM',tea:'4:00 PM - 4:15 PM'};
@@ -462,7 +482,11 @@ async function ghSave(){
   setSI('syncing','Saving...');
   localStorage.setItem('gohel_v5',JSON.stringify(S));
   try{
-    const body={message:'update '+new Date().toISOString(),content:btoa(unescape(encodeURIComponent(JSON.stringify(S,null,2)))),...(fileSHA?{sha:fileSHA}:{})};
+    const jsonStr=JSON.stringify(S,null,2);
+    const bytes=new TextEncoder().encode(jsonStr);
+    const binStr=Array.from(bytes).map(b=>String.fromCharCode(b)).join('');
+    const b64=btoa(binStr);
+    const body={message:'update '+new Date().toISOString(),content:b64,...(fileSHA?{sha:fileSHA}:{})};
     const r=await fetch(GH_API,{method:'PUT',headers:{'Authorization':'token '+GH_TOKEN,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(body)});
     const d=await r.json();
     if(d.content&&d.content.sha){fileSHA=d.content.sha;localStorage.setItem('gohel_sha5',fileSHA);setSI('ok','Synced ✓');}
@@ -568,8 +592,8 @@ function renderWorkerGrid(){
     const att=attToday.find(a=>a.worker===w.name);
     const attLabel=att?(att.checkOut?`<span class="wa out">✓ OUT</span>`:`<span class="wa in">✓ IN ${f12(att.checkIn)}</span>`):`<span class="wa abs">Not marked</span>`;
     return`<button class="wbtn${selW===i?' sel':''}${hasPaused[w.name]?' has-paused':''}" onclick="swW(${i})">
-      <span class="wi">${w.icon}</span>${w.name}
-      ${hasPaused[w.name]?'<span class="wp">⏸ PAUSED</span>':''}
+      <span class="wletter">${w.name.charAt(0).toUpperCase()}</span>${w.name}
+      ${hasPaused[w.name]?'<span class="wp">|| PAUSED</span>':''}
       ${attLabel}
     </button>`;
   }).join('');
@@ -583,9 +607,9 @@ function renderTaskGrid(){
   g.innerHTML=S.tasks.map((t,i)=>{
     const b=busy[t.name], p=paused[t.name];
     return`<button class="tbtn${selT===i?' sel':''}${b?' busy':''}" onclick="swT(${i})">
-      <span class="ti">${t.icon}</span>${t.name}
-      ${b?`<span class="bt2">● BUSY: ${b}</span>`:''}
-      ${p?`<span class="bt2" style="color:var(--purple)">⏸ ${p}</span>`:''}
+      <span class="tletter">${t.name.charAt(0).toUpperCase()}</span>${t.name}
+      ${b?`<span class="bt2">BUSY: ${b}</span>`:''}
+      ${p?`<span class="bt2" style="color:var(--purple)">PAUSED: ${p}</span>`:''}
     </button>`;
   }).join('');
 }
@@ -658,7 +682,7 @@ function renderStatusBoard(){
     const w=busy[t.name],p=paused[t.name];
     const cls=w?'busy':p?'paused':'free';
     const lbl=w?'🔴 BUSY':p?'🟣 PAUSED':'🟢 FREE';
-    return`<div class="mtile ${cls}"><span class="mi">${t.icon}</span><div class="mn">${t.name}</div><div class="ms">${lbl}</div><div class="mw">${w||p||'Available'}</div></div>`;
+    return`<div class="mtile ${cls}"><span class="mletter">${t.name.charAt(0)}</span><div class="mn">${t.name}</div><div class="ms">${lbl}</div><div class="mw">${w||p||'Available'}</div></div>`;
   }).join('');
 }
 
@@ -675,8 +699,8 @@ function renderLive(){
     const breakInfo=e.breaks&&e.breaks.length?`<div style="font-size:10px;color:var(--muted);margin-top:2px">⏸ ${e.breaks.length} break(s) taken</div>`:'';
     return`<div class="${cls}">
       <div>
-        <div class="tcw">${e.workerIcon} ${e.worker}</div>
-        <div class="tct">${e.taskIcon} ${e.task}${e.note?` · <em>${e.note}</em>`:''}</div>
+        <div class="tcw">${e.worker}</div>
+        <div class="tct">${e.task}${e.note?` · <em>${e.note}</em>`:''}</div>
         <div style="font-size:11px;color:var(--muted);margin-top:2px">📅 ${e.date}</div>
         ${breakInfo}
       </div>
@@ -717,7 +741,7 @@ function renderAttend(){
         timeInfo=`In: ${f12(rec.checkIn)}${rec.checkOut?` · Out: ${f12(rec.checkOut)}`:''}`;
       }
       return`<div class="att-card">
-        <span class="ai">${w.icon}</span>
+        <span class="ai">${w.name.charAt(0).toUpperCase()}</span>
         <div class="aw">${w.name}</div>
         <div class="ast ${status}">${statusLbl}</div>
         <div class="at">${timeInfo}</div>
@@ -743,7 +767,7 @@ function renderAttend(){
   document.getElementById('attLog').innerHTML=dayData.length?dayData.map(a=>{
     const hrs=a.checkOut?dS(a.checkIn,a.checkOut):'—';
     return`<div class="att-log-row">
-      <div style="font-family:'Barlow Condensed',sans-serif;font-weight:600">${a.workerIcon||'👤'} ${a.worker}</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-weight:600">${a.worker}</div>
       <div><span class="ast ${a.late?'late':'present'}" style="font-size:10px;padding:2px 6px">${a.late?'LATE':'PRESENT'}</span></div>
       <div style="color:var(--accent2);font-family:'Barlow Condensed',sans-serif">${f12(a.checkIn)}</div>
       <div style="color:var(--danger);font-family:'Barlow Condensed',sans-serif">${a.checkOut?f12(a.checkOut):'—'}</div>
@@ -794,13 +818,13 @@ function renderShift(){
   data.forEach(e=>{if(!wMap[e.worker])wMap[e.worker]={icon:e.workerIcon,count:0,mins:0};wMap[e.worker].count++;wMap[e.worker].mins+=cM(e.start,e.end);});
   const maxW=Math.max(...Object.values(wMap).map(w=>w.mins),1);
   document.getElementById('shiftWorkers').innerHTML=Object.keys(wMap).length?
-    Object.entries(wMap).map(([n,w])=>`<div class="shr"><div class="srn">${w.icon} ${n}</div><div class="srb"><div class="srbar" style="width:${(w.mins/maxW*100).toFixed(0)}%"></div></div><div class="src">${w.count} task(s)</div><div class="srh">${(w.mins/60).toFixed(1)}h</div></div>`).join('')
+    Object.entries(wMap).map(([n,w])=>`<div class="shr"><div class="srn">${n}</div><div class="srb"><div class="srbar" style="width:${(w.mins/maxW*100).toFixed(0)}%"></div></div><div class="src">${w.count} task(s)</div><div class="srh">${(w.mins/60).toFixed(1)}h</div></div>`).join('')
     :'<p style="color:var(--muted);font-size:13px;padding:8px 0">No data.</p>';
   const mMap={};
   data.forEach(e=>{if(!mMap[e.task])mMap[e.task]={icon:e.taskIcon,count:0,mins:0};mMap[e.task].count++;mMap[e.task].mins+=cM(e.start,e.end);});
   const maxM=Math.max(...Object.values(mMap).map(m=>m.mins),1);
   document.getElementById('shiftMachines').innerHTML=Object.keys(mMap).length?
-    Object.entries(mMap).map(([n,m])=>`<div class="shr"><div class="srn">${m.icon} ${n}</div><div class="srb"><div class="srbar" style="width:${(m.mins/maxM*100).toFixed(0)}%;background:var(--blue)"></div></div><div class="src">${m.count} job(s)</div><div class="srh" style="color:var(--blue)">${(m.mins/60).toFixed(1)}h</div></div>`).join('')
+    Object.entries(mMap).map(([n,m])=>`<div class="shr"><div class="srn">${n}</div><div class="srb"><div class="srbar" style="width:${(m.mins/maxM*100).toFixed(0)}%;background:var(--blue)"></div></div><div class="src">${m.count} job(s)</div><div class="srh" style="color:var(--blue)">${(m.mins/60).toFixed(1)}h</div></div>`).join('')
     :'<p style="color:var(--muted);font-size:13px;padding:8px 0">No data.</p>';
 }
 
@@ -879,8 +903,8 @@ function dl(rows,name){
 // ── MANAGE ──
 function renderManage(){
   const wl=document.getElementById('wManage'),tl=document.getElementById('tManage');if(!wl)return;
-  wl.innerHTML=S.workers.map((w,i)=>`<div class="mi2"><span>${w.icon} <strong>${w.name}</strong></span><button class="bdanger" onclick="rmW(${i})">Remove</button></div>`).join('');
-  tl.innerHTML=S.tasks.map((t,i)=>`<div class="mi2"><span>${t.icon} <strong>${t.name}</strong></span><button class="bdanger" onclick="rmT(${i})">Remove</button></div>`).join('');
+  wl.innerHTML=S.workers.map((w,i)=>`<div class="mi2"><span><strong>${w.name}</strong></span><button class="bdanger" onclick="rmW(${i})">Remove</button></div>`).join('');
+  tl.innerHTML=S.tasks.map((t,i)=>`<div class="mi2"><span><strong>${t.name}</strong></span><button class="bdanger" onclick="rmT(${i})">Remove</button></div>`).join('');
 }
 async function addWorker(){const n=document.getElementById('nwName').value.trim(),icon=document.getElementById('nwIcon').value.trim()||'👤';if(!n)return toast('⚠️ Enter name','error');S.workers.push({name:n,icon});renderManage();renderWorkerGrid();document.getElementById('nwName').value='';document.getElementById('nwIcon').value='';toast('✅ Worker added');await ghSave();}
 async function rmW(i){S.workers.splice(i,1);renderManage();renderWorkerGrid();await ghSave();}
