@@ -1,0 +1,78 @@
+{
+  "pin": "1234",
+  "workers": [
+    {
+      "name": "Helper 1",
+      "icon": "👷"
+    },
+    {
+      "name": "Helper 2",
+      "icon": "🔧"
+    },
+    {
+      "name": "Helper 3",
+      "icon": "⚙️"
+    },
+    {
+      "name": "Helper 4",
+      "icon": "🛠️"
+    },
+    {
+      "name": "Helper 5",
+      "icon": "🔩"
+    }
+  ],
+  "tasks": [
+    {
+      "name": "VMC 1",
+      "icon": "🏭"
+    },
+    {
+      "name": "VMC 2",
+      "icon": "🏭"
+    },
+    {
+      "name": "VMC 3",
+      "icon": "🏭"
+    },
+    {
+      "name": "VMC 4",
+      "icon": "🏭"
+    },
+    {
+      "name": "CNC 1",
+      "icon": "⚙️"
+    },
+    {
+      "name": "CNC 2",
+      "icon": "⚙️"
+    },
+    {
+      "name": "CNC 3",
+      "icon": "⚙️"
+    },
+    {
+      "name": "CNC 4",
+      "icon": "⚙️"
+    },
+    {
+      "name": "Quality Check",
+      "icon": "✅"
+    },
+    {
+      "name": "Cleaning",
+      "icon": "🧹"
+    },
+    {
+      "name": "Packaging",
+      "icon": "📦"
+    }
+  ],
+  "log": [],
+  "attendance": [],
+  "breakTimings": {
+    "lunch": "1:00 PM - 1:45 PM",
+    "tea": "4:00 PM - 4:15 PM"
+  },
+  "activeBreak": null
+}
