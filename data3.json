@@ -470,6 +470,22 @@
       "checkIn": "10:26",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "QC Hitesh",
+      "workerIcon": "👤",
+      "date": "30/4/2026",
+      "checkIn": "10:26",
+      "checkOut": null,
+      "late": false
+    },
+    {
+      "worker": "Programmer Jitendra",
+      "workerIcon": "👤",
+      "date": "30/4/2026",
+      "checkIn": "10:26",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
