@@ -610,6 +610,14 @@
       "checkIn": "10:26",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "OPR Shyamlal",
+      "workerIcon": "👤",
+      "date": "30/4/2026",
+      "checkIn": "19:28",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
