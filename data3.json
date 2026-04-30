@@ -409,10 +409,10 @@
       "taskIcon": "ÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§",
       "date": "30/4/2026",
       "start": "09:30",
-      "end": null,
+      "end": "12:09",
       "note": "SR",
-      "done": false,
-      "status": "running",
+      "done": true,
+      "status": "done",
       "breaks": [],
       "pausedAt": null,
       "pauseReason": null
