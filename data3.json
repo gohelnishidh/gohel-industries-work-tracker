@@ -630,6 +630,14 @@
       "checkIn": "19:34",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "OPR Rohit",
+      "workerIcon": "👤",
+      "date": "30/4/2026",
+      "checkIn": "19:49",
+      "checkOut": null,
+      "late": true
     }
   ],
   "breakTimings": {
