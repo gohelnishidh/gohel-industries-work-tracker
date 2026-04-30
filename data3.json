@@ -434,6 +434,22 @@
       "checkIn": "10:25",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "OPR Radhe",
+      "workerIcon": "👤",
+      "date": "30/4/2026",
+      "checkIn": "10:25",
+      "checkOut": null,
+      "late": false
+    },
+    {
+      "worker": "OPR Kalpesh",
+      "workerIcon": "👤",
+      "date": "30/4/2026",
+      "checkIn": "10:25",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
