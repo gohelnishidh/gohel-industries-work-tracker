@@ -236,10 +236,14 @@
       "end": null,
       "note": "Helicoil in SR",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "12:30",
-      "pauseReason": "lunchBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "lunch",
+          "start": "12:30",
+          "end": "13:21"
+        }
+      ]
     },
     {
       "id": 1777524817658,
@@ -252,10 +256,14 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "12:30",
-      "pauseReason": "lunchBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "lunch",
+          "start": "12:30",
+          "end": "13:21"
+        }
+      ]
     },
     {
       "id": 1777524803044,
@@ -268,10 +276,14 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "12:30",
-      "pauseReason": "lunchBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "lunch",
+          "start": "12:30",
+          "end": "13:21"
+        }
+      ]
     },
     {
       "id": 1777524784750,
@@ -284,10 +296,14 @@
       "end": null,
       "note": "Ynut 37",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "12:30",
-      "pauseReason": "lunchBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "lunch",
+          "start": "12:30",
+          "end": "13:21"
+        }
+      ]
     },
     {
       "id": 1777524464973,
@@ -300,10 +316,14 @@
       "end": null,
       "note": "Washer",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "12:30",
-      "pauseReason": "lunchBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "lunch",
+          "start": "12:30",
+          "end": "13:21"
+        }
+      ]
     },
     {
       "id": 1777524417554,
@@ -316,10 +336,14 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "12:30",
-      "pauseReason": "lunchBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "lunch",
+          "start": "12:30",
+          "end": "13:21"
+        }
+      ]
     },
     {
       "id": 1777524367894,
@@ -332,10 +356,14 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "12:30",
-      "pauseReason": "lunchBreak"
+      "status": "running",
+      "breaks": [
+        {
+          "type": "lunch",
+          "start": "12:30",
+          "end": "13:21"
+        }
+      ]
     },
     {
       "id": 1777524306910,
@@ -540,9 +568,5 @@
     "lunch": "12:30 PM - 1:15 PM",
     "tea": "3:45 PM - 3:56 PM"
   },
-  "activeBreak": {
-    "type": "lunch",
-    "startTime": "12:30",
-    "date": "30/4/2026"
-  }
+  "activeBreak": null
 }
