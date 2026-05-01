@@ -26,6 +26,35 @@
       "color": "#8b5cf6"
     }
   ],
-  "stock": [],
-  "log": []
+  "stock": [
+    {
+      "id": "1777614307103",
+      "material": "Aluminium",
+      "grade": "6082",
+      "diameter": "220",
+      "length": "1050",
+      "pricePerKg": "",
+      "supplier": "panthrod",
+      "qtyPcs": 5,
+      "qtyKg": 0,
+      "minPcs": 0,
+      "addedDate": "1/5/2026"
+    }
+  ],
+  "log": [
+    {
+      "id": 1777614307104,
+      "type": "IN",
+      "material": "Aluminium",
+      "grade": "6082",
+      "diameter": "220",
+      "length": "1050",
+      "qtyPcs": 5,
+      "qtyKg": 0,
+      "supplier": "panthrod",
+      "note": "",
+      "date": "1/5/2026",
+      "time": "11:15"
+    }
+  ]
 }
