@@ -814,6 +814,14 @@
       "checkIn": "10:26",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "OPR Sasikant",
+      "workerIcon": "👤",
+      "date": "1/5/2026",
+      "checkIn": "10:26",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
