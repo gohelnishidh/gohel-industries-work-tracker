@@ -468,15 +468,20 @@
       "end": null,
       "note": "Ymisc811",
       "done": false,
-      "status": "paused",
+      "status": "running",
       "breaks": [
         {
           "type": "lunch",
           "start": "12:30",
           "end": "13:20"
+        },
+        {
+          "type": "manual",
+          "start": "13:20",
+          "end": "13:28"
         }
       ],
-      "pausedAt": "13:20"
+      "pauseReason": null
     },
     {
       "id": 1777693330026,
