@@ -1158,6 +1158,14 @@
       "checkIn": "09:10",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "Production Sunil",
+      "workerIcon": "👤",
+      "date": "2/5/2026",
+      "checkIn": "09:12",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
