@@ -1182,6 +1182,14 @@
       "checkIn": "09:13",
       "checkOut": null,
       "late": true
+    },
+    {
+      "worker": "QC Hitesh",
+      "workerIcon": "👤",
+      "date": "2/5/2026",
+      "checkIn": "09:14",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
