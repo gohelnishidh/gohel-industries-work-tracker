@@ -240,9 +240,9 @@
       "end": null,
       "note": "ENCAP-312#",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
+      "pausedAt": "11:53",
       "pauseReason": null
     },
     {
