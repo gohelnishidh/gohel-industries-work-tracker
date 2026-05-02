@@ -1030,6 +1030,14 @@
       "checkIn": "09:08",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "OPR Hirakumar",
+      "workerIcon": "👤",
+      "date": "2/5/2026",
+      "checkIn": "09:08",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
