@@ -368,9 +368,9 @@
       "end": null,
       "note": "Kit312 endcap",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
+      "pausedAt": "11:55",
       "pauseReason": null
     },
     {
