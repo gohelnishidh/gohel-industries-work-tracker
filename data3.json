@@ -261,10 +261,10 @@
       "taskIcon": "ÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§",
       "date": "2/5/2026",
       "start": "10:48",
-      "end": null,
+      "end": "13:20",
       "note": "Yttap44",
-      "done": false,
-      "status": "running",
+      "done": true,
+      "status": "done",
       "breaks": [
         {
           "type": "lunch",
@@ -385,10 +385,10 @@
       "taskIcon": "ÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§",
       "date": "2/5/2026",
       "start": "09:50",
-      "end": null,
+      "end": "13:20",
       "note": "Kit312 endcap",
-      "done": false,
-      "status": "paused",
+      "done": true,
+      "status": "done",
       "breaks": [],
       "pausedAt": "11:55",
       "pauseReason": null
