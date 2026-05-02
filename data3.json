@@ -224,10 +224,10 @@
       "end": null,
       "note": "Yslve136",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777699489808,
@@ -240,10 +240,10 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777699356992,
@@ -256,10 +256,10 @@
       "end": null,
       "note": "Yttap44",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777699157590,
@@ -288,10 +288,10 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777698915066,
@@ -304,10 +304,10 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777697588673,
@@ -384,10 +384,10 @@
       "end": null,
       "note": "Ymisc811",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777693330026,
@@ -432,7 +432,7 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [
         {
           "type": "manual",
@@ -440,7 +440,8 @@
           "end": "10:43"
         }
       ],
-      "pauseReason": null
+      "pauseReason": "lunchBreak",
+      "pausedAt": "12:30"
     },
     {
       "id": 1777693240597,
@@ -453,10 +454,10 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777693228770,
@@ -469,10 +470,10 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777693195445,
@@ -485,10 +486,10 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777693186243,
@@ -501,10 +502,10 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
-      "pauseReason": null
+      "pausedAt": "12:30",
+      "pauseReason": "lunchBreak"
     },
     {
       "id": 1777611822056,
@@ -1401,5 +1402,9 @@
     "lunch": "12:30 PM - 1:15 PM",
     "tea": "3:45 PM - 3:56 PM"
   },
-  "activeBreak": null
+  "activeBreak": {
+    "type": "lunch",
+    "startTime": "12:30",
+    "date": "2/5/2026"
+  }
 }
