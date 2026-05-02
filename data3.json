@@ -320,9 +320,9 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [],
-      "pausedAt": null,
+      "pausedAt": "10:33",
       "pauseReason": null
     },
     {
