@@ -205,10 +205,10 @@
       "taskIcon": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§",
       "date": "2/5/2026",
       "start": "10:01",
-      "end": null,
+      "end": "10:43",
       "note": "W raju P yslve136 from anod.",
-      "done": false,
-      "status": "running",
+      "done": true,
+      "status": "done",
       "breaks": [],
       "pausedAt": null,
       "pauseReason": null
