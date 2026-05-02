@@ -998,6 +998,22 @@
       "checkIn": "09:08",
       "checkOut": null,
       "late": false
+    },
+    {
+      "worker": "OPR Sasikant",
+      "workerIcon": "👤",
+      "date": "2/5/2026",
+      "checkIn": "09:08",
+      "checkOut": null,
+      "late": false
+    },
+    {
+      "worker": "OPR Nitesh",
+      "workerIcon": "👤",
+      "date": "2/5/2026",
+      "checkIn": "09:08",
+      "checkOut": null,
+      "late": false
     }
   ],
   "breakTimings": {
