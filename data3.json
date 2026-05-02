@@ -404,14 +404,15 @@
       "end": null,
       "note": "Ymisc811",
       "done": false,
-      "status": "running",
+      "status": "paused",
       "breaks": [
         {
           "type": "lunch",
           "start": "12:30",
           "end": "13:20"
         }
-      ]
+      ],
+      "pausedAt": "13:20"
     },
     {
       "id": 1777693330026,
