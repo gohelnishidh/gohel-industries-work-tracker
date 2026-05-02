@@ -320,9 +320,14 @@
       "end": null,
       "note": "",
       "done": false,
-      "status": "paused",
-      "breaks": [],
-      "pausedAt": "10:33",
+      "status": "running",
+      "breaks": [
+        {
+          "type": "manual",
+          "start": "10:33",
+          "end": "10:43"
+        }
+      ],
       "pauseReason": null
     },
     {
