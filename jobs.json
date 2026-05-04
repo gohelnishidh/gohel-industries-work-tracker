@@ -2,6 +2,22 @@
   "pin": "1234",
   "jobs": [
     {
+      "part": "Ring",
+      "desc": "ECS",
+      "process": "anodising",
+      "vendor": "pranav anodizer pvt ltd",
+      "qty": "27",
+      "unit": "NOS",
+      "out": "2026-04-30T13:23",
+      "due": "2026-05-01T14:23",
+      "challan": "290",
+      "sentvia": "2W",
+      "followup": "",
+      "notes": "",
+      "done": false,
+      "addedDate": "4/5/2026"
+    },
+    {
       "part": "Yslve 136",
       "desc": "flange extension yash hv",
       "process": "anodising",
