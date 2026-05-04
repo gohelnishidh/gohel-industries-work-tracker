@@ -110,6 +110,8 @@
       }
     }
   },
-  "holidays": [],
+  "holidays": [
+    "2026-05-14"
+  ],
   "advances": {}
 }
