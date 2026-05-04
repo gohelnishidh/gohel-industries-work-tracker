@@ -2,6 +2,22 @@
   "pin": "1234",
   "jobs": [
     {
+      "part": "Yslve 136",
+      "desc": "flange extension yash hv",
+      "process": "anodising",
+      "vendor": "pranav anodizer pvt ltd",
+      "qty": "6",
+      "unit": "NOS",
+      "out": "2026-04-27T11:57",
+      "due": "2026-04-29T13:21",
+      "challan": "284",
+      "sentvia": "2W",
+      "followup": "",
+      "notes": "",
+      "done": false,
+      "addedDate": "4/5/2026"
+    },
+    {
       "part": "YTTAP58105",
       "desc": "TestTap Yash HV",
       "process": "Nickle Plating",
