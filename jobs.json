@@ -31,8 +31,9 @@
       "sentvia": "2W",
       "followup": "",
       "notes": "",
-      "done": false,
-      "addedDate": "4/5/2026"
+      "done": true,
+      "addedDate": "4/5/2026",
+      "receivedDate": "4/5/2026"
     },
     {
       "part": "YTTAP58105",
