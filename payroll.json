@@ -42,7 +42,16 @@
       "otRate": 0
     }
   ],
-  "attendance": {},
+  "attendance": {
+    "2026-05-04": {
+      "Ajit kaka": {
+        "status": "present",
+        "inTime": "09:00",
+        "outTime": "",
+        "note": ""
+      }
+    }
+  },
   "holidays": [],
   "advances": {}
 }
