@@ -2,6 +2,22 @@
   "pin": "1234",
   "jobs": [
     {
+      "part": "YTTAP58105",
+      "desc": "TestTap Yash HV",
+      "process": "Nickle Plating",
+      "vendor": "Sainath electroplating",
+      "qty": "105",
+      "unit": "NOS",
+      "out": "2026-04-28T13:14",
+      "due": "2026-04-30T15:00",
+      "challan": "287",
+      "sentvia": "2W",
+      "followup": "",
+      "notes": "",
+      "done": false,
+      "addedDate": "4/5/2026"
+    },
+    {
       "part": "YSLVE-136",
       "desc": "Flange Extension Yash High Voltage",
       "process": "Anodising",
