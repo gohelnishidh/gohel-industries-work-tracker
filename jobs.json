@@ -1,4 +1,21 @@
 {
   "pin": "1234",
-  "jobs": []
+  "jobs": [
+    {
+      "part": "brass",
+      "desc": "",
+      "process": "plating",
+      "vendor": "sainath",
+      "qty": "50",
+      "unit": "NOS",
+      "out": "2026-05-05T11:38",
+      "due": "",
+      "challan": "GI-26/001",
+      "sentvia": "2W",
+      "followup": "",
+      "notes": "",
+      "done": false,
+      "addedDate": "4/5/2026"
+    }
+  ]
 }
