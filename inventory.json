@@ -35,13 +35,26 @@
       "length": "1050",
       "pricePerKg": "",
       "supplier": "panthrod",
-      "qtyPcs": 5,
+      "qtyPcs": 3,
       "qtyKg": 0,
       "minPcs": 0,
       "addedDate": "1/5/2026"
     }
   ],
   "log": [
+    {
+      "id": 1777906173835,
+      "type": "OUT",
+      "material": "Aluminium",
+      "grade": "6082",
+      "diameter": "220",
+      "length": "1050",
+      "qtyPcs": 2,
+      "qtyKg": 0,
+      "job": "Topcap",
+      "date": "4/5/2026",
+      "time": "20:19"
+    },
     {
       "id": 1777614307104,
       "type": "IN",
