@@ -121,6 +121,12 @@
         "inTime": "09:00",
         "outTime": "",
         "note": ""
+      },
+      "Hitesh": {
+        "status": "absent",
+        "inTime": "",
+        "outTime": "",
+        "note": ""
       }
     }
   },
