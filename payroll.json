@@ -147,9 +147,9 @@
         "note": ""
       },
       "Raju Parmar": {
-        "status": "absent",
-        "inTime": "",
-        "outTime": "",
+        "status": "present",
+        "inTime": "09:00",
+        "outTime": "19:31",
         "note": ""
       },
       "Mehul": {
