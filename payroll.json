@@ -217,8 +217,8 @@
         "note": ""
       },
       "Alpesh": {
-        "status": "absent",
-        "inTime": "",
+        "status": "present",
+        "inTime": "09:00",
         "outTime": "",
         "note": ""
       },
