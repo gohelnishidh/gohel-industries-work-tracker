@@ -215,6 +215,12 @@
         "inTime": "",
         "outTime": "",
         "note": ""
+      },
+      "Hitesh": {
+        "status": "present",
+        "inTime": "09:30",
+        "outTime": "",
+        "note": ""
       }
     }
   },
