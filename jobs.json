@@ -2,6 +2,22 @@
   "pin": "8763",
   "jobs": [
     {
+      "part": "Brass chain",
+      "desc": "For kit",
+      "process": "Nickle plating",
+      "vendor": "Sainath electroplating",
+      "qty": "307",
+      "unit": "NOS",
+      "out": "2026-05-07T10:50",
+      "due": "",
+      "challan": "GI-298",
+      "sentvia": "2W raju parmar",
+      "followup": "",
+      "notes": "",
+      "done": false,
+      "addedDate": "7/5/2026"
+    },
+    {
       "part": "Ring",
       "desc": "ECS",
       "process": "anodising",
