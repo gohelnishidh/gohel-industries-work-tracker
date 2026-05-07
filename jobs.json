@@ -2,6 +2,22 @@
   "pin": "8763",
   "jobs": [
     {
+      "part": "Ykit16",
+      "desc": "Brass",
+      "process": "Tin plating",
+      "vendor": "Sainath electroplating",
+      "qty": "15",
+      "unit": "NOS",
+      "out": "2026-05-07T14:00",
+      "due": "",
+      "challan": "",
+      "sentvia": "2W raju parmar",
+      "followup": "",
+      "notes": "",
+      "done": false,
+      "addedDate": "7/5/2026"
+    },
+    {
       "part": "Brass chain",
       "desc": "For kit",
       "process": "Nickle plating",
