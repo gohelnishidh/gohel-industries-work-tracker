@@ -227,6 +227,12 @@
         "inTime": "09:00",
         "outTime": "",
         "note": ""
+      },
+      "Viraj": {
+        "status": "absent",
+        "inTime": "",
+        "outTime": "",
+        "note": ""
       }
     }
   },
