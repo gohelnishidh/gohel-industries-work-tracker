@@ -14,8 +14,9 @@
       "sentvia": "2W raju parmar",
       "followup": "",
       "notes": "",
-      "done": false,
-      "addedDate": "7/5/2026"
+      "done": true,
+      "addedDate": "7/5/2026",
+      "receivedDate": "12/5/2026"
     },
     {
       "part": "Brass chain",
