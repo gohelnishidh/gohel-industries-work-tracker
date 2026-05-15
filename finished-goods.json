@@ -1,5 +1,17 @@
 {
   "pin": "1234",
-  "items": [],
+  "items": [
+    {
+      "id": "1778818631908",
+      "partName": "YKIT-325",
+      "desc": "",
+      "customer": "Yash HighVoltage",
+      "qty": 30,
+      "packDate": "2026-05-15",
+      "drawingNum": "",
+      "notes": "",
+      "addedDate": "2026-05-15"
+    }
+  ],
   "dispatches": []
 }
