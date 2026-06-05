@@ -1,15 +1,5 @@
 [
   {
-    "part": "ALUMINIUM FLANGE SUPPORT 245 kV OIL-OIL",
-    "poDate": "2001-05-14",
-    "poRef": "P0026668",
-    "qty": "15",
-    "id": "GI/OID/26/35",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
     "part": "FLANGE EXTENSION 52 kV 6300 A 300 CT",
     "poDate": "2001-05-14",
     "poRef": "P0026668",
