@@ -980,14 +980,15 @@
     "qty": "1",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "3187.00",
+    "gst": "573.66",
+    "grand": "3760.66",
     "items": [
       {
         "part": "YACND0000398",
         "qty": "1",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "3187"
       }
     ],
     "date": "",
