@@ -30,21 +30,6 @@
     "notes": ""
   },
   {
-    "id": "GI-2506-103",
-    "poDate": "2025-05-28",
-    "part": "SS CNC Turned Component",
-    "customer": "Jyoti Ltd.",
-    "poRef": "JL-5498",
-    "qty": "150",
-    "material": "Stainless Steel",
-    "price": "320.00",
-    "total": "48000.00",
-    "date": "2026-06-03",
-    "status": "Ready",
-    "priority": "High",
-    "notes": "Ready to dispatch"
-  },
-  {
     "id": "GI-2505-089",
     "poDate": "2025-05-15",
     "part": "Aluminium VMC Part",
