@@ -1,29 +1,5 @@
 [
   {
-    "id": "GI/OID/26/01",
-    "poDate": "2026-06-05",
-    "part": "CENTER PIPE 72.5 KV 800 A 300 CT",
-    "customer": "Yash Highvoltage Ltd.",
-    "poRef": "Inventory",
-    "qty": "6",
-    "material": "Brass",
-    "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
-    "items": [
-      {
-        "part": "CENTER PIPE 72.5 KV 800 A 300 CT",
-        "qty": "6",
-        "material": "Brass"
-      }
-    ],
-    "date": "",
-    "status": "Not Started",
-    "priority": "Medium",
-    "notes": ""
-  },
-  {
     "id": "GI/OID/26/02",
     "poDate": "2001-12-08",
     "part": "CENTER PIPE ID: Ø60",
