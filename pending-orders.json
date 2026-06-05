@@ -1796,14 +1796,15 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "4560.20",
+    "gst": "820.84",
+    "grand": "5381.04",
     "items": [
       {
         "part": "FLANGE PIPE (2-23-A27-SR)",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "456.02"
       }
     ],
     "date": "",
