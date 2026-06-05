@@ -144,14 +144,28 @@
     "notes": ""
   },
   {
-    "part": "YCCND0000222",
+    "id": "GI/OID/26/07",
     "poDate": "2001-03-22",
+    "part": "YCCND0000222",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0025687",
     "qty": "25",
-    "id": "GI/OID/26/07",
-    "material": "Brass",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YCCND0000222",
+        "qty": "25",
+        "material": "Copper"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "id": "GI/OID/26/08",
