@@ -1055,14 +1055,15 @@
     "qty": "60",
     "material": "Brass",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "6000.00",
+    "gst": "1080.00",
+    "grand": "7080.00",
     "items": [
       {
         "part": "YTTAP0000084",
         "qty": "60",
-        "material": "Brass"
+        "material": "Brass",
+        "price": "100"
       }
     ],
     "date": "",
