@@ -454,16 +454,17 @@
     "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026133",
     "qty": "12",
-    "material": "Aluminium",
+    "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "4086.00",
+    "gst": "735.48",
+    "grand": "4821.48",
     "items": [
       {
         "part": "YSRNG0000041",
         "qty": "12",
-        "material": "Aluminium"
+        "material": "Stainless Steel",
+        "price": "340.50"
       }
     ],
     "date": "",
