@@ -1992,13 +1992,27 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/84",
+    "poDate": "2026-05-21",
     "part": "Transformer Flange",
-    "poDate": "2026-21-05",
+    "customer": "",
     "poRef": "PUAL26000638",
     "qty": "50",
-    "id": "GI/OID/26/84",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "Transformer Flange",
+        "qty": "50",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
