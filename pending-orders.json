@@ -182,14 +182,15 @@
     "qty": "9",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "228635.01",
+    "gst": "41154.30",
+    "grand": "269789.31",
     "items": [
       {
         "part": "YCCND0000219",
         "qty": "9",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "25403.89"
       }
     ],
     "date": "",
