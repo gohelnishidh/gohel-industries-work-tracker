@@ -3914,5 +3914,30 @@
     "material": "Brass",
     "priority": "Medium",
     "status": "Not Started"
+  },
+  {
+    "id": "GI/OID/26/256",
+    "poDate": "2026-05-22",
+    "part": "YCCND0000101",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "J262700118",
+    "qty": "26",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YCCND0000101",
+        "qty": "26",
+        "material": "Copper",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
