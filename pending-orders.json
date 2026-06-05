@@ -4216,5 +4216,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/267",
+    "poDate": "2026-04-16",
+    "part": "YKITB0000322",
+    "customer": "",
+    "poRef": "P0026145",
+    "qty": "13",
+    "material": "Other",
+    "price": "",
+    "total": "55861.00",
+    "gst": "10054.98",
+    "grand": "65915.98",
+    "items": [
+      {
+        "part": "YKITB0000322",
+        "qty": "13",
+        "material": "Other",
+        "price": "4297"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
