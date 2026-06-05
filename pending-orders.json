@@ -678,7 +678,7 @@
     "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026429",
     "qty": "30",
-    "material": "Aluminium",
+    "material": "Brass",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -687,7 +687,7 @@
       {
         "part": "YRING0000018",
         "qty": "30",
-        "material": "Aluminium"
+        "material": "Brass"
       }
     ],
     "date": "",
