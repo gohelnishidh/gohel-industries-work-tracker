@@ -180,7 +180,7 @@
     "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0025706",
     "qty": "9",
-    "material": "Aluminium",
+    "material": "Copper",
     "price": "",
     "total": "228635.01",
     "gst": "41154.30",
@@ -189,12 +189,12 @@
       {
         "part": "YCCND0000219",
         "qty": "9",
-        "material": "Aluminium",
+        "material": "Copper",
         "price": "25403.89"
       }
     ],
     "date": "",
-    "status": "Not Started",
+    "status": "Ready",
     "priority": "Medium",
     "notes": ""
   },
