@@ -192,14 +192,28 @@
     "notes": ""
   },
   {
-    "part": "COPPER CONDUCTOR 34.5 KV 2000 A 550 CT",
+    "id": "GI/OID/26/09",
     "poDate": "2001-03-26",
+    "part": "COPPER CONDUCTOR 34.5 KV 2000 A 550 CT",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0025800",
     "qty": "2",
-    "id": "GI/OID/26/09",
-    "material": "Brass",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "COPPER CONDUCTOR 34.5 KV 2000 A 550 CT",
+        "qty": "2",
+        "material": "Copper"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "COPPER CONDUCTOR 34.5 kV 4000 A 534 CT",
