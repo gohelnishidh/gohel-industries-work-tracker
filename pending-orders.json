@@ -1996,17 +1996,18 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1224.00",
+    "gst": "220.32",
+    "grand": "1444.32",
     "items": [
       {
         "part": "CONNECTOR 2 1/2\"-12 UN-2B (2-23-A91-SR)",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "122.40"
       }
     ],
-    "date": "",
+    "date": "2026-05-30",
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
