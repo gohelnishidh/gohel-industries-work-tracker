@@ -1,20 +1,5 @@
 [
   {
-    "id": "GI-2505-089",
-    "poDate": "2025-05-15",
-    "part": "Aluminium VMC Part",
-    "customer": "Direct Export",
-    "poRef": "",
-    "qty": "80",
-    "material": "Aluminium",
-    "price": "520.00",
-    "total": "41600.00",
-    "date": "2026-06-18",
-    "status": "Not Started",
-    "priority": "Low",
-    "notes": ""
-  },
-  {
     "id": "GI-26-01",
     "part": "BRASS TESTTAP",
     "poDate": "2026-06-04",
