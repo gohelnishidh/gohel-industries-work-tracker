@@ -1488,13 +1488,27 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/63",
+    "poDate": "",
     "part": "EALCU000360T",
-    "poDate": "2026-15-05",
+    "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0019571",
     "qty": "3",
-    "id": "GI/OID/26/63",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "EALCU000360T",
+        "qty": "3",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
