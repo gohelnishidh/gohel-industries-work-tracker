@@ -600,14 +600,28 @@
     "notes": ""
   },
   {
-    "part": "YBCAP0000067",
+    "id": "GI/OID/26/26",
     "poDate": "2001-04-22",
+    "part": "YBCAP0000067",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026318",
     "qty": "12",
-    "id": "GI/OID/26/26",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YBCAP0000067",
+        "qty": "12",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "YBCAP0000067",
