@@ -1704,14 +1704,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/72",
+    "poDate": "2026-05-08",
     "part": "Transformer Air Vent",
-    "poDate": "2026-08-05",
+    "customer": "",
     "poRef": "PUAL26000438",
     "qty": "50",
-    "id": "GI/OID/26/72",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "Transformer Air Vent",
+        "qty": "50",
+        "material": "Brass"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "FLANGE PIPE (2-23-A27-SR)",
