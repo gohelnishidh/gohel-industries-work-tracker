@@ -1353,14 +1353,15 @@
     "qty": "50",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "140000.00",
+    "gst": "25200.00",
+    "grand": "165200.00",
     "items": [
       {
         "part": "EPIAL0000067",
         "qty": "50",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "2800"
       }
     ],
     "date": "",
