@@ -1,45 +1,5 @@
 [
   {
-    "part": "CENETR PIPE 115 kV 800 A 584 CT",
-    "poDate": "2001-04-10",
-    "poRef": "P0026085",
-    "qty": "6",
-    "id": "GI/OID/26/21",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "CENTER PIPE 170 kV 800 A 300 CT",
-    "poDate": "2001-04-10",
-    "poRef": "P0026085",
-    "qty": "10",
-    "id": "GI/OID/26/22",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "CONSERVATOR 145 kV 800 A SHORT TAIL",
-    "poDate": "2001-04-15",
-    "poRef": "P0026148",
-    "qty": "3",
-    "id": "GI/OID/26/23",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "FLANGE 145 kV 1250 A",
-    "poDate": "2001-04-19",
-    "poRef": "P0026275",
-    "qty": "24",
-    "id": "GI/OID/26/24",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
     "part": "FLANGE 145 kV 1250 A 100 CT RIP",
     "poDate": "2001-04-19",
     "poRef": "P0026275",
