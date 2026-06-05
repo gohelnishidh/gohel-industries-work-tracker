@@ -2021,14 +2021,15 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1257.80",
+    "gst": "226.40",
+    "grand": "1484.20",
     "items": [
       {
         "part": "CONNECTOR 1 7/8\"-12 UN-2B (2-23-A50-SR)",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "125.78"
       }
     ],
     "date": "",
