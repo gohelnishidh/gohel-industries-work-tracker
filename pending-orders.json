@@ -2566,5 +2566,30 @@
     "status": "In Progress",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/108",
+    "poDate": "2026-06-04",
+    "part": "JWI-000606/ JP-00047",
+    "customer": "Baroda Bushings & Insulators LLP",
+    "poRef": "",
+    "qty": "75",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "JWI-000606/ JP-00047",
+        "qty": "75",
+        "material": "Copper",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
