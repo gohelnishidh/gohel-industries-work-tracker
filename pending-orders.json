@@ -1,29 +1,5 @@
 [
   {
-    "id": "GI/OID/26/03",
-    "poDate": "2001-03-12",
-    "part": "CENTER PIPE",
-    "customer": "Yash Highvoltage Ltd.",
-    "poRef": "P0025593",
-    "qty": "14",
-    "material": "Brass",
-    "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
-    "items": [
-      {
-        "part": "CENTER PIPE",
-        "qty": "14",
-        "material": "Brass"
-      }
-    ],
-    "date": "",
-    "status": "Not Started",
-    "priority": "Medium",
-    "notes": ""
-  },
-  {
     "id": "GI/OID/26/04",
     "poDate": "2001-03-22",
     "part": "CENTER PIPE 245 kV 800 A 300 CT",
