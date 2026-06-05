@@ -1495,21 +1495,22 @@
   },
   {
     "id": "GI/OID/26/61",
-    "poDate": "",
+    "poDate": "2026-06-05",
     "part": "EALAL0000125-1",
     "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0019568",
     "qty": "3",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "4482.00",
+    "gst": "806.76",
+    "grand": "5288.76",
     "items": [
       {
         "part": "EALAL0000125-1",
         "qty": "3",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "1494"
       }
     ],
     "date": "",
