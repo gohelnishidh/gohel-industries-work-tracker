@@ -1680,14 +1680,28 @@
     "notes": ""
   },
   {
-    "part": "PIPE (2-22-818-SR)",
+    "id": "GI/OID/26/71",
     "poDate": "2026-04-05",
+    "part": "PIPE (2-22-818-SR)",
+    "customer": "Standard Radiators",
     "poRef": "PUAL26000378",
     "qty": "2360",
-    "id": "GI/OID/26/71",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "PIPE (2-22-818-SR)",
+        "qty": "2360",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "Transformer Air Vent",
