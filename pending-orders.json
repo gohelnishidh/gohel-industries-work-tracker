@@ -706,14 +706,15 @@
     "qty": "30",
     "material": "Brass",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "34650.00",
+    "gst": "6237.00",
+    "grand": "40887.00",
     "items": [
       {
         "part": "YRING0000018",
         "qty": "30",
-        "material": "Brass"
+        "material": "Brass",
+        "price": "1155"
       }
     ],
     "date": "",
