@@ -4241,5 +4241,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/268",
+    "poDate": "2026-05-15",
+    "part": "YKITB0000322",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "P0026690",
+    "qty": "24",
+    "material": "Other",
+    "price": "",
+    "total": "108744.00",
+    "gst": "19573.92",
+    "grand": "128317.92",
+    "items": [
+      {
+        "part": "YKITB0000322",
+        "qty": "24",
+        "material": "Other",
+        "price": "4531"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
