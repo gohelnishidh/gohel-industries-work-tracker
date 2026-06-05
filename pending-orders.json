@@ -556,14 +556,15 @@
     "qty": "3",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "14747.10",
+    "gst": "2654.48",
+    "grand": "17401.58",
     "items": [
       {
         "part": "YCSVT0000073",
         "qty": "3",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "4915.70"
       }
     ],
     "date": "",
