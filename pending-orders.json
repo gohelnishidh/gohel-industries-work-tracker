@@ -4221,24 +4221,24 @@
     "id": "GI/OID/26/267",
     "poDate": "2026-04-16",
     "part": "YKITB0000322",
-    "customer": "",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026145",
-    "qty": "13",
+    "qty": "12",
     "material": "Other",
     "price": "",
-    "total": "55861.00",
-    "gst": "10054.98",
-    "grand": "65915.98",
+    "total": "51564.00",
+    "gst": "9281.52",
+    "grand": "60845.52",
     "items": [
       {
         "part": "YKITB0000322",
-        "qty": "13",
+        "qty": "12",
         "material": "Other",
         "price": "4297"
       }
     ],
     "date": "",
-    "status": "Not Started",
+    "status": "Ready",
     "priority": "Medium",
     "notes": ""
   },
