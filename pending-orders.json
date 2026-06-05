@@ -1197,21 +1197,22 @@
   },
   {
     "id": "GI/OID/26/49",
-    "poDate": "",
+    "poDate": "2026-06-05",
     "part": "EPROCOACC057",
     "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0018656",
     "qty": "9",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "60120.00",
+    "gst": "10821.60",
+    "grand": "70941.60",
     "items": [
       {
         "part": "EPROCOACC057",
         "qty": "9",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "6680"
       }
     ],
     "date": "",
