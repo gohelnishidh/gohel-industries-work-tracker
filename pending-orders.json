@@ -1544,21 +1544,22 @@
   },
   {
     "id": "GI/OID/26/63",
-    "poDate": "",
+    "poDate": "2026-06-05",
     "part": "EALCU000360T",
     "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0019571",
     "qty": "3",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "3561.00",
+    "gst": "640.98",
+    "grand": "4201.98",
     "items": [
       {
         "part": "EALCU000360T",
         "qty": "3",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "1187"
       }
     ],
     "date": "",
