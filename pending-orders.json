@@ -1560,12 +1560,27 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/66",
+    "poDate": "2026-06-05",
     "part": "33-21-463",
+    "customer": "Jyoti Ltd.",
     "poRef": "3517025",
     "qty": "5",
-    "id": "GI/OID/26/66",
-    "material": "Brass",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "33-21-463",
+        "qty": "5",
+        "material": "Stainless Steel"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
