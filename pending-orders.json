@@ -414,14 +414,28 @@
     "status": "Not Started"
   },
   {
-    "part": "YSLVE0000153",
+    "id": "GI/OID/26/41",
     "poDate": "2001-05-20",
+    "part": "YSLVE0000153",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026795",
     "qty": "15",
-    "id": "GI/OID/26/41",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YSLVE0000153",
+        "qty": "15",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "id": "GI/OID/26/42",
