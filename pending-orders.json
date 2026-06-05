@@ -429,16 +429,17 @@
     "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026053",
     "qty": "4",
-    "material": "Aluminium",
+    "material": "Copper",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "28256.00",
+    "gst": "5086.08",
+    "grand": "33342.08",
     "items": [
       {
         "part": "YHTRM0000212",
         "qty": "4",
-        "material": "Aluminium"
+        "material": "Copper",
+        "price": "7064"
       }
     ],
     "date": "",
