@@ -1748,14 +1748,15 @@
     "qty": "2360",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "103840.00",
+    "gst": "18691.20",
+    "grand": "122531.20",
     "items": [
       {
         "part": "PIPE (2-22-818-SR)",
         "qty": "2360",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "44"
       }
     ],
     "date": "",
