@@ -606,15 +606,15 @@
     "qty": "24",
     "material": "Aluminium",
     "price": "",
-    "total": "28248.72",
-    "gst": "5084.77",
-    "grand": "33333.49",
+    "total": "282554.16",
+    "gst": "50859.75",
+    "grand": "333413.91",
     "items": [
       {
         "part": "YFLNG0000413",
         "qty": "24",
         "material": "Aluminium",
-        "price": "1177.03"
+        "price": "11773.09"
       }
     ],
     "date": "",
