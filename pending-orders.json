@@ -806,14 +806,15 @@
     "qty": "60",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "18000.00",
+    "gst": "3240.00",
+    "grand": "21240.00",
     "items": [
       {
         "part": "YCEMC0000992",
         "qty": "60",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "300"
       }
     ],
     "date": "",
