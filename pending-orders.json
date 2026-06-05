@@ -282,14 +282,15 @@
     "qty": "504",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "2520.00",
+    "gst": "453.60",
+    "grand": "2973.60",
     "items": [
       {
         "part": "YTSTP0000008",
         "qty": "504",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "5"
       }
     ],
     "date": "",
