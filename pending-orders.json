@@ -1772,14 +1772,15 @@
     "qty": "50",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "15393.50",
+    "gst": "2770.83",
+    "grand": "18164.33",
     "items": [
       {
         "part": "Transformer Air Vent",
         "qty": "50",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "307.87"
       }
     ],
     "date": "2026-08-10",
