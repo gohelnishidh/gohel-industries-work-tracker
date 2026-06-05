@@ -1,20 +1,5 @@
 [
   {
-    "id": "GI-2506-101",
-    "poDate": "2025-06-01",
-    "part": "ETP Copper Busbar",
-    "customer": "Yash Highvoltage Ltd.",
-    "poRef": "YH-PO-0042",
-    "qty": "200",
-    "material": "Copper",
-    "price": "185.00",
-    "total": "37000.00",
-    "date": "2026-06-06",
-    "status": "In Progress",
-    "priority": "High",
-    "notes": "Drawing no. YH-0042"
-  },
-  {
     "id": "GI-2506-102",
     "poDate": "2025-06-03",
     "part": "Brass Auto Part IS319",
