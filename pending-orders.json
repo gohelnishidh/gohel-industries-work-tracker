@@ -2424,14 +2424,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/102",
+    "poDate": "",
     "part": "101302",
-    "poDate": "2026-25-05",
+    "customer": "Transpipe Integrity Solutions",
     "poRef": "TPIS/2026-2027/PO/012",
     "qty": "200",
-    "id": "GI/OID/26/102",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "101302",
+        "qty": "200",
+        "material": "Brass"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "241302",
