@@ -1,35 +1,5 @@
 [
   {
-    "part": "CENTER PIPE 170 kV 800 A 500 CT",
-    "poDate": "2001-05-17",
-    "poRef": "P0026733",
-    "qty": "1",
-    "id": "GI/OID/26/40",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "FLANGE EXTENSION 245 kV 2000 A 300 CT OIL-OIL",
-    "poDate": "2001-05-20",
-    "poRef": "P0026795",
-    "qty": "15",
-    "id": "GI/OID/26/41",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "FLANGE EXTENSION 34.5 KV 10000 A 534 CT",
-    "poDate": "2001-05-22",
-    "poRef": "P0026847",
-    "qty": "8",
-    "id": "GI/OID/26/42",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
     "part": "AUXILARY TOOL TEST TAP",
     "poDate": "2001-05-29",
     "poRef": "P0026904",
