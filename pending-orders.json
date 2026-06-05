@@ -1896,17 +1896,18 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1015.60",
+    "gst": "182.81",
+    "grand": "1198.41",
     "items": [
       {
         "part": "1 7/8\"-12 UN-2B CONN (2-24-B01-SR)",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "101.56"
       }
     ],
-    "date": "",
+    "date": "2026-05-30",
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
