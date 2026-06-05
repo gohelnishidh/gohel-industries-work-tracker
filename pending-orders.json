@@ -2046,14 +2046,15 @@
     "qty": "50",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "38409.00",
+    "gst": "6913.62",
+    "grand": "45322.62",
     "items": [
       {
         "part": "Converter Flange",
         "qty": "50",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "768.18"
       }
     ],
     "date": "",
