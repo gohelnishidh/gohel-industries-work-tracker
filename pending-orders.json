@@ -576,14 +576,28 @@
     "notes": ""
   },
   {
-    "part": "YFLNG0000413",
+    "id": "GI/OID/26/25",
     "poDate": "2001-04-19",
+    "part": "YFLNG0000413",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026275",
     "qty": "24",
-    "id": "GI/OID/26/25",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YFLNG0000413",
+        "qty": "24",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "YBCAP0000067",
