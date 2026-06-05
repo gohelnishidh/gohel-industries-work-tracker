@@ -1896,14 +1896,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/80",
+    "poDate": "2026-05-18",
     "part": "CONNECTOR 1-5/8\" 12UN-2B (2-23-B10-SR)",
-    "poDate": "2026-18-05",
+    "customer": "",
     "poRef": "POVD26000099",
     "qty": "10",
-    "id": "GI/OID/26/80",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "CONNECTOR 1-5/8\" 12UN-2B (2-23-B10-SR)",
+        "qty": "10",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "CONNECTOR 2 1/2\"-12 UN-2B (2-23-A91-SR)",
