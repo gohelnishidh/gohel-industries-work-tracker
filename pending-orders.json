@@ -1945,17 +1945,18 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1031.90",
+    "gst": "185.74",
+    "grand": "1217.64",
     "items": [
       {
         "part": "CONNECTOR 1-5/8\" 12UN-2B (2-23-A87-SR)",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "103.19"
       }
     ],
-    "date": "",
+    "date": "2026-05-30",
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
