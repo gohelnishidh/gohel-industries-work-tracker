@@ -264,14 +264,28 @@
     "notes": ""
   },
   {
-    "part": "YTSTP0000008",
+    "id": "GI/OID/26/12",
     "poDate": "2001-03-31",
+    "part": "YTSTP0000008",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0025862",
     "qty": "504",
-    "id": "GI/OID/26/12",
-    "material": "Brass",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YTSTP0000008",
+        "qty": "504",
+        "material": "Stainless Steel"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "YTSTP0000008",
