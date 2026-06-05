@@ -1,29 +1,5 @@
 [
   {
-    "id": "GI/OID/26/02",
-    "poDate": "2001-12-08",
-    "part": "CENTER PIPE ID: Ø60",
-    "customer": "Yash Highvoltage Ltd.",
-    "poRef": "P0024530",
-    "qty": "38",
-    "material": "Brass",
-    "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
-    "items": [
-      {
-        "part": "CENTER PIPE ID: Ø60",
-        "qty": "38",
-        "material": "Brass"
-      }
-    ],
-    "date": "",
-    "status": "Not Started",
-    "priority": "Medium",
-    "notes": ""
-  },
-  {
     "id": "GI/OID/26/03",
     "poDate": "2001-03-12",
     "part": "CENTER PIPE",
