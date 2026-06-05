@@ -1710,7 +1710,7 @@
     "customer": "",
     "poRef": "PUAL26000438",
     "qty": "50",
-    "material": "Brass",
+    "material": "Aluminium",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -1719,7 +1719,7 @@
       {
         "part": "Transformer Air Vent",
         "qty": "50",
-        "material": "Brass"
+        "material": "Aluminium"
       }
     ],
     "date": "",
