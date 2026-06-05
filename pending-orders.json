@@ -2098,15 +2098,15 @@
     "qty": "10",
     "material": "Mild Steel",
     "price": "",
-    "total": "35000.00",
-    "gst": "6300.00",
-    "grand": "41300.00",
+    "total": "3500.00",
+    "gst": "630.00",
+    "grand": "4130.00",
     "items": [
       {
         "part": "101502",
         "qty": "10",
         "material": "Mild Steel",
-        "price": "3500"
+        "price": "350"
       }
     ],
     "date": "",
