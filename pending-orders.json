@@ -1673,14 +1673,15 @@
     "qty": "147",
     "material": "Other",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "5292.00",
+    "gst": "952.56",
+    "grand": "6244.56",
     "items": [
       {
         "part": "CJ PIN SACB01201 AISI420 HT",
         "qty": "147",
-        "material": "Other"
+        "material": "Other",
+        "price": "36"
       }
     ],
     "date": "",
