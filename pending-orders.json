@@ -655,14 +655,15 @@
     "qty": "8",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "210304.00",
+    "gst": "37854.72",
+    "grand": "248158.72",
     "items": [
       {
         "part": "YBCAP0000067",
         "qty": "8",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "26288"
       }
     ],
     "date": "",
