@@ -1776,14 +1776,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/75",
+    "poDate": "2026-05-18",
     "part": "FLANGE PIPE ( 2-24-B09-SR )",
-    "poDate": "2026-18-05",
+    "customer": "",
     "poRef": "POVD26000099",
     "qty": "10",
-    "id": "GI/OID/26/75",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "FLANGE PIPE ( 2-24-B09-SR )",
+        "qty": "10",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "1 7/8\"-12 UN-2B CONN (2-23-A26-SR)",
