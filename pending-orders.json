@@ -2470,14 +2470,15 @@
     "qty": "1",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "2000.00",
+    "gst": "360.00",
+    "grand": "2360.00",
     "items": [
       {
         "part": "141902-5_PART_2",
         "qty": "1",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "2000"
       }
     ],
     "date": "",
