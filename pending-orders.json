@@ -1821,17 +1821,18 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "2416.20",
+    "gst": "434.92",
+    "grand": "2851.12",
     "items": [
       {
         "part": "PIPE ( 2-24-B09-SR )",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "241.62"
       }
     ],
-    "date": "",
+    "date": "2026-05-30",
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
