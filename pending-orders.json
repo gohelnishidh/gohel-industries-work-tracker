@@ -524,21 +524,22 @@
   },
   {
     "id": "GI/OID/26/22",
-    "poDate": "2001-04-10",
+    "poDate": "2026-04-11",
     "part": "YACND0000268",
     "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026085",
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "31370.00",
+    "gst": "5646.60",
+    "grand": "37016.60",
     "items": [
       {
         "part": "YACND0000268",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "3137"
       }
     ],
     "date": "",
