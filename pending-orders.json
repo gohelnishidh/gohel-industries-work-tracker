@@ -404,14 +404,28 @@
     "status": "Not Started"
   },
   {
-    "part": "YACND0000398",
+    "id": "GI/OID/26/40",
     "poDate": "2001-05-17",
+    "part": "YACND0000398",
+    "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026733",
     "qty": "1",
-    "id": "GI/OID/26/40",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YACND0000398",
+        "qty": "1",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "id": "GI/OID/26/41",
