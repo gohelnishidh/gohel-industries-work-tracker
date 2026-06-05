@@ -1,55 +1,5 @@
 [
   {
-    "part": "HV TERMINAL 145 kV 800 A",
-    "poDate": "2001-04-06",
-    "poRef": "P0025978",
-    "qty": "3",
-    "id": "GI/OID/26/16",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "FLANGE EXTENSION 36 kV 8000 A 300 CT",
-    "poDate": "2001-04-08",
-    "poRef": "P0026047",
-    "qty": "18",
-    "id": "GI/OID/26/17",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "AIR END TERMINAL 52 kV COPPER NICKEL PLATED",
-    "poDate": "2001-04-09",
-    "poRef": "P0026053",
-    "qty": "4",
-    "id": "GI/OID/26/18",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "SS SPLIT RING ID 94 X OD 124.3 X 6 thk.",
-    "poDate": "2001-04-14",
-    "poRef": "P0026133",
-    "qty": "12",
-    "id": "GI/OID/26/19",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "CENTER PIPE 52 kV 800 A 300 CT",
-    "poDate": "2001-04-10",
-    "poRef": "P0026085",
-    "qty": "1",
-    "id": "GI/OID/26/20",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
     "part": "CENETR PIPE 115 kV 800 A 584 CT",
     "poDate": "2001-04-10",
     "poRef": "P0026085",
