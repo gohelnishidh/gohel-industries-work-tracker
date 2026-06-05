@@ -2071,17 +2071,18 @@
     "qty": "50",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "37666.00",
+    "gst": "6779.88",
+    "grand": "44445.88",
     "items": [
       {
         "part": "Transformer Flange",
         "qty": "50",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "753.32"
       }
     ],
-    "date": "",
+    "date": "2026-08-10",
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
