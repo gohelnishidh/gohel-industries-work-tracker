@@ -855,14 +855,15 @@
     "qty": "15",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "147675.00",
+    "gst": "26581.50",
+    "grand": "174256.50",
     "items": [
       {
         "part": "YFLNS0000023",
         "qty": "15",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "9845"
       }
     ],
     "date": "",
