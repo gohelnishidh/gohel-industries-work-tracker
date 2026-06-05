@@ -1172,21 +1172,22 @@
   },
   {
     "id": "GI/OID/26/48",
-    "poDate": "",
+    "poDate": "2026-06-05",
     "part": "EMISC0000000",
     "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0017898",
     "qty": "57",
     "material": "Other",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "11799.00",
+    "gst": "2123.82",
+    "grand": "13922.82",
     "items": [
       {
         "part": "EMISC0000000",
         "qty": "57",
-        "material": "Other"
+        "material": "Other",
+        "price": "207"
       }
     ],
     "date": "",
