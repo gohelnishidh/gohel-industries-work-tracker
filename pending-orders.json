@@ -1,35 +1,5 @@
 [
   {
-    "part": "CENTER PIPE 100 kV 800 A 0CT",
-    "poDate": "2001-05-05",
-    "poRef": "P0026509",
-    "qty": "1",
-    "id": "GI/OID/26/31",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "FLANGE EXTENSION 36 kV 5000 A 300 CT",
-    "poDate": "2001-05-10",
-    "poRef": "P0026549",
-    "qty": "5",
-    "id": "GI/OID/26/32",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "ACTIVE PART LIFTING FIXTURE M42 x 2 PITCH",
-    "poDate": "2001-05-10",
-    "poRef": "P0026557",
-    "qty": "60",
-    "id": "GI/OID/26/33",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
     "part": "1/2\" BSP ALLEN HEAD BRASS PLUG & FVMQ O RING",
     "poDate": "",
     "poRef": "",
