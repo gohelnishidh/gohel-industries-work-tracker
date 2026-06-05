@@ -1129,14 +1129,15 @@
     "qty": "25",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "22500.00",
+    "gst": "4050.00",
+    "grand": "26550.00",
     "items": [
       {
         "part": "EALAL00CC078",
         "qty": "25",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "900"
       }
     ],
     "date": "",
