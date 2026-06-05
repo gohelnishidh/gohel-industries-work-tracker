@@ -1723,14 +1723,15 @@
     "qty": "30",
     "material": "Other",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "4050.00",
+    "gst": "729.00",
+    "grand": "4779.00",
     "items": [
       {
         "part": "GRUB SCREW HALF DOG TYPE 1\"X14 TPI UNS SS316",
         "qty": "30",
-        "material": "Other"
+        "material": "Other",
+        "price": "135"
       }
     ],
     "date": "",
