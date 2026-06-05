@@ -1056,14 +1056,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/45",
+    "poDate": "2026-06-05",
     "part": "EACLU0000028",
-    "poDate": "",
+    "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0017618",
     "qty": "9",
-    "id": "GI/OID/26/45",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "EACLU0000028",
+        "qty": "9",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "id": "GI/OID/26/46",
