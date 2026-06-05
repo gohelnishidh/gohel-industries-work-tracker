@@ -1582,5 +1582,45 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "part": "CJ PIN SACB00803 AISI420 HT",
+    "poDate": "2026-23-04",
+    "poRef": "PO/2627/00210",
+    "qty": "50",
+    "id": "GI/OID/26/67",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
+  },
+  {
+    "part": "CJ PIN SACB01201 AISI420 HT",
+    "poDate": "2026-12-05",
+    "poRef": "PO/2627/00378",
+    "qty": "147",
+    "id": "GI/OID/26/68",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
+  },
+  {
+    "part": "SFM SHAFT SACB04901 AISI410-BO-PRE-PLATING",
+    "poDate": "2026-13-05",
+    "poRef": "PO/2627/00411",
+    "qty": "20",
+    "id": "GI/OID/26/69",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
+  },
+  {
+    "part": "GRUB SCREW HALF DOG TYPE 1\"X14 TPI UNS SS316",
+    "poDate": "2026-15-05",
+    "poRef": "PO/2627/00431",
+    "qty": "30",
+    "id": "GI/OID/26/70",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
   }
 ]
