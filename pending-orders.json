@@ -1,20 +1,5 @@
 [
   {
-    "id": "GI-26-01",
-    "part": "BRASS TESTTAP",
-    "poDate": "2026-06-04",
-    "customer": "YASH HV",
-    "poRef": "P00241690",
-    "qty": "50",
-    "material": "Brass",
-    "price": "20",
-    "total": "1000.00",
-    "date": "2026-06-20",
-    "status": "In Progress",
-    "priority": "Medium",
-    "notes": ""
-  },
-  {
     "part": "CENTER PIPE 72.5 KV 800 A 300 CT",
     "poDate": "",
     "poRef": "Inventory",
