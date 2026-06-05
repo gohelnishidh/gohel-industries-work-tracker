@@ -1,25 +1,5 @@
 [
   {
-    "part": "TOP COVER 245 kV 800 A",
-    "poDate": "2001-05-14",
-    "poRef": "P0026690",
-    "qty": "37",
-    "id": "GI/OID/26/38",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "part": "CENTER PIPE 72.5 kV 800A 100 CT",
-    "poDate": "2001-05-17",
-    "poRef": "P0026733",
-    "qty": "6",
-    "id": "GI/OID/26/39",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
     "part": "CENTER PIPE 170 kV 800 A 500 CT",
     "poDate": "2001-05-17",
     "poRef": "P0026733",
