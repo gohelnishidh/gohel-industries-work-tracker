@@ -2022,7 +2022,7 @@
     "customer": "Transpipe Integrity Solutions",
     "poRef": "TPIS/2025-2026/PO/039",
     "qty": "10",
-    "material": "Brass",
+    "material": "Mild Steel",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -2031,7 +2031,7 @@
       {
         "part": "101502",
         "qty": "10",
-        "material": "Brass"
+        "material": "Mild Steel"
       }
     ],
     "date": "",
