@@ -1971,14 +1971,15 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1161.20",
+    "gst": "209.02",
+    "grand": "1370.22",
     "items": [
       {
         "part": "CONNECTOR 1-5/8\" 12UN-2B (2-23-B10-SR)",
         "qty": "10",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "116.12"
       }
     ],
     "date": "",
