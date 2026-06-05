@@ -1080,14 +1080,15 @@
     "qty": "3",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "3750.00",
+    "gst": "675.00",
+    "grand": "4425.00",
     "items": [
       {
         "part": "EPROCOACC062",
         "qty": "3",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "1250"
       }
     ],
     "date": "",
