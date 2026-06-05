@@ -1585,12 +1585,12 @@
   },
   {
     "id": "GI/OID/26/67",
-    "poDate": "",
+    "poDate": "2026-06-05",
     "part": "CJ PIN SACB00803 AISI420 HT",
     "customer": "Rotomac Industries",
     "poRef": "PO/2627/00210",
     "qty": "50",
-    "material": "Stainless Steel",
+    "material": "Other",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -1599,7 +1599,7 @@
       {
         "part": "CJ PIN SACB00803 AISI420 HT",
         "qty": "50",
-        "material": "Stainless Steel"
+        "material": "Other"
       }
     ],
     "date": "",
