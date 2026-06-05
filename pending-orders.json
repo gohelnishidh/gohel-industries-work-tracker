@@ -1698,14 +1698,15 @@
     "qty": "20",
     "material": "Other",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "16093.40",
+    "gst": "2896.81",
+    "grand": "18990.21",
     "items": [
       {
         "part": "SFM SHAFT SACB04901 AISI410-BO-PRE-PLATING",
         "qty": "20",
-        "material": "Other"
+        "material": "Other",
+        "price": "804.67"
       }
     ],
     "date": "",
