@@ -379,16 +379,17 @@
     "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0025978",
     "qty": "3",
-    "material": "Other",
+    "material": "Brass",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "15537.90",
+    "gst": "2796.82",
+    "grand": "18334.72",
     "items": [
       {
         "part": "YHTRM0000211",
         "qty": "3",
-        "material": "Other"
+        "material": "Brass",
+        "price": "5179.30"
       }
     ],
     "date": "",
