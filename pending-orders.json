@@ -107,14 +107,15 @@
     "qty": "16",
     "material": "Copper",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "406462.24",
+    "gst": "73163.20",
+    "grand": "479625.44",
     "items": [
       {
         "part": "YCCND0000219",
         "qty": "16",
-        "material": "Copper"
+        "material": "Copper",
+        "price": "25403.89"
       }
     ],
     "date": "",
