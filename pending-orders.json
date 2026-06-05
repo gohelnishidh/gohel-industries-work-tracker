@@ -930,14 +930,15 @@
     "qty": "37",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "317571.00",
+    "gst": "57162.78",
+    "grand": "374733.78",
     "items": [
       {
         "part": "YTCAP0000147",
         "qty": "37",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "8583"
       }
     ],
     "date": "",
