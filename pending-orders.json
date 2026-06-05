@@ -1005,14 +1005,15 @@
     "qty": "15",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "81450.00",
+    "gst": "14661.00",
+    "grand": "96111.00",
     "items": [
       {
         "part": "YSLVE0000153",
         "qty": "15",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "5430"
       }
     ],
     "date": "",
