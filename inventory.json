@@ -26,21 +26,7 @@
       "color": "#8b5cf6"
     }
   ],
-  "stock": [
-    {
-      "id": "1777614307103",
-      "material": "Aluminium",
-      "grade": "6082",
-      "diameter": "220",
-      "length": "1050",
-      "pricePerKg": "",
-      "supplier": "panthrod",
-      "qtyPcs": 3,
-      "qtyKg": 0,
-      "minPcs": 0,
-      "addedDate": "1/5/2026"
-    }
-  ],
+  "stock": [],
   "log": [
     {
       "id": 1777906173835,
