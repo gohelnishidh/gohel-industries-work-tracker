@@ -310,6 +310,21 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
       </div>
     </div>
 
+    <div id="cust-summary" style="display:none;background:var(--navy);color:#fff;padding:12px 20px;border-radius:3px;margin-bottom:10px;display:none;align-items:center;gap:18px;flex-wrap:wrap;">
+      <span id="cs-name" style="font-weight:700;font-size:15px;letter-spacing:0.5px;"></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:12px;opacity:0.8" id="cs-orders"></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:12px;opacity:0.8" id="cs-pending-count"></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:13px;font-weight:700;color:#fbbf24">In Production: <span id="cs-pending-val"></span></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:12px;opacity:0.8" id="cs-ready-count"></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:13px;font-weight:700;color:#34d399">Ready Stock: <span id="cs-ready-val"></span></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:13px;font-weight:700;color:#6ee7b7">Grand Total: <span id="cs-total"></span></span>
+    </div>
     <div class="table-wrap">
       <table>
         <thead>
@@ -715,6 +730,32 @@ function renderTable(){
     return da-db;
   });
   updateStats();
+
+  // Customer summary bar
+  const sq=document.getElementById('search').value.trim();
+  const bar=document.getElementById('cust-summary');
+  if(sq.length>=2){
+    const custs=[...new Set(filtered.map(o=>o.customer).filter(Boolean))];
+    if(custs.length===1){
+      const c=custs[0];
+      // All orders for this customer (not just filtered)
+      const allC=orders.filter(o=>o.customer===c);
+      const pendingC=allC.filter(o=>o.status!=='Dispatched'&&o.status!=='Ready');
+      const readyC=allC.filter(o=>o.status==='Ready');
+      const pendingVal=pendingC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
+      const readyVal=readyC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
+      const grandTotal=allC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
+      document.getElementById('cs-name').textContent=c;
+      document.getElementById('cs-orders').textContent=allC.length+' order'+(allC.length!==1?'s':'');
+      document.getElementById('cs-pending-count').textContent=pendingC.length+' in production';
+      document.getElementById('cs-pending-val').textContent=fmtMoney(pendingVal);
+      document.getElementById('cs-ready-val').textContent=fmtMoney(readyVal);
+      document.getElementById('cs-ready-count').textContent=readyC.length+' ready';
+      document.getElementById('cs-total').textContent=fmtMoney(grandTotal);
+      bar.style.display='flex';
+    } else { bar.style.display='none'; }
+  } else { bar.style.display='none'; }
+
   const tbody=document.getElementById('order-tbody');
   if(!filtered.length){tbody.innerHTML='';document.getElementById('empty-state').style.display='block';return;}
   document.getElementById('empty-state').style.display='none';
