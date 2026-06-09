@@ -3931,13 +3931,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/161",
+    "poDate": "2026-06-09",
     "part": "F7050100047",
+    "customer": "Acepack Technologies",
     "poRef": "PO/2627/2000182",
     "qty": "8",
-    "id": "GI/OID/26/161",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "F7050100047",
+        "qty": "8",
+        "material": "Brass"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "id": "GI/OID/26/162",
