@@ -1,59 +1,20 @@
-{
-  "pin": "8763",
-  "matTypes": [
-    {
-      "name": "Brass",
-      "color": "#f59e0b"
-    },
-    {
-      "name": "Aluminium",
-      "color": "#3b82f6"
-    },
-    {
-      "name": "Stainless Steel",
-      "color": "#10b981"
-    },
-    {
-      "name": "Mild Steel",
-      "color": "#64748b"
-    },
-    {
-      "name": "Copper",
-      "color": "#f97316"
-    },
-    {
-      "name": "Special Alloy",
-      "color": "#8b5cf6"
-    }
-  ],
-  "stock": [],
-  "log": [
-    {
-      "id": 1777906173835,
-      "type": "OUT",
-      "material": "Aluminium",
-      "grade": "6082",
-      "diameter": "220",
-      "length": "1050",
-      "qtyPcs": 2,
-      "qtyKg": 0,
-      "job": "Topcap",
-      "date": "4/5/2026",
-      "time": "20:19"
-    },
-    {
-      "id": 1777614307104,
-      "type": "IN",
-      "material": "Aluminium",
-      "grade": "6082",
-      "diameter": "220",
-      "length": "1050",
-      "qtyPcs": 5,
-      "qtyKg": 0,
-      "supplier": "panthrod",
-      "note": "",
-      "date": "1/5/2026",
-      "time": "11:15"
-    }
-  ]
-}
+[
+  {
+    "id": "GI/RM/26/01",
+    "material": "Aluminium",
+    "grade": "6082 T6",
+    "type": "Rod",
+    "dia": "220",
+    "inner": "",
+    "side": "",
+    "width": "",
+    "height": "",
+    "length": "20",
+    "qty": "10",
+    "rate": "220",
+    "minQty": "",
+    "supplier": "Panthrod Inc.",
+    "notes": "",
+    "txns": []
+  }
+]
