@@ -2637,10 +2637,10 @@
     "id": "GI/OID/26/107",
     "poDate": "2026-05-12",
     "part": "BB",
-    "customer": "",
+    "customer": "Excellent Engineering Corporation",
     "poRef": "EEC/RM/R/xxx/26-27 (Ch. 534)",
     "qty": "1000",
-    "material": "Brass",
+    "material": "Stainless Steel",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -2649,7 +2649,7 @@
       {
         "part": "BB",
         "qty": "1000",
-        "material": "Brass"
+        "material": "Stainless Steel"
       }
     ],
     "date": "2026-05-16",
