@@ -88,5 +88,23 @@
     "supplier": "",
     "notes": "",
     "txns": []
+  },
+  {
+    "id": "GI/RM/26/06",
+    "material": "Aluminium",
+    "grade": "6082 T6",
+    "type": "Rod",
+    "dia": "350",
+    "inner": "",
+    "side": "",
+    "width": "",
+    "height": "",
+    "length": "36",
+    "qty": "1",
+    "rate": "220",
+    "minQty": "",
+    "supplier": "",
+    "notes": "",
+    "txns": []
   }
 ]
