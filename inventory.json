@@ -857,14 +857,21 @@
     "txns": []
   },
   {
+    "id": "GI/RM/26/82",
+    "material": "Aluminium",
+    "grade": "Aluminium Sheet",
+    "type": "PLATE",
     "dia": "395",
     "inner": "210",
+    "side": "",
+    "width": "",
+    "height": "",
     "length": "16",
     "qty": "2",
-    "material": "Aluminium",
-    "type": "Sheet",
-    "grade": "Aluminium Sheet",
-    "id": "GI/RM/26/82",
+    "rate": "",
+    "minQty": "",
+    "supplier": "",
+    "notes": "",
     "txns": []
   },
   {
