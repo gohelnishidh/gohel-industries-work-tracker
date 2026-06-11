@@ -449,6 +449,39 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
   </div>
 </div>
 
+
+<!-- PARTIAL DISPATCH MODAL -->
+<div class="modal-overlay" id="dispatch-modal">
+  <div class="modal" style="max-width:460px">
+    <div class="modal-header">
+      <div class="modal-title">🚚 Dispatch Stock</div>
+      <button class="modal-close" onclick="closeModal('dispatch-modal')">×</button>
+    </div>
+    <div id="dispatch-info" style="background:var(--card);border:1px solid var(--border);border-radius:2px;padding:12px;margin-bottom:14px;font-size:13px;line-height:1.9;"></div>
+    <div class="form-grid">
+      <div class="form-group">
+        <label>Qty to Dispatch (nos)</label>
+        <input type="number" id="disp-qty" placeholder="0" min="1" oninput="calcDispatch()">
+      </div>
+      <div class="form-group">
+        <label>Dispatch Date</label>
+        <input type="date" id="disp-date">
+      </div>
+      <div class="form-group full">
+        <label>Challan / Reference No.</label>
+        <input type="text" id="disp-ref" placeholder="e.g. DC-001, Challan No.">
+      </div>
+      <div class="form-group full" id="disp-preview-wrap" style="display:none">
+        <div style="background:var(--gold-light);border:1px solid #e6c84a;border-radius:2px;padding:10px 12px;font-family:'DM Mono',monospace;font-size:12px;color:var(--gold);font-weight:700;line-height:1.8" id="disp-preview"></div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('dispatch-modal')">Cancel</button>
+      <button class="btn-save" onclick="confirmDispatch()">Confirm Dispatch</button>
+    </div>
+  </div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -683,7 +716,7 @@ function updateStats(){
 
   // Total pending value (exclude dispatched)
   const pendingOrders=orders.filter(o=>o.status!=='Dispatched');
-  const totalVal=pendingOrders.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
+  const totalVal=pendingOrders.reduce((s,o)=>s+calcPendingValue(o),0);
   document.getElementById('stat-val').textContent=totalVal>0?'₹'+Math.round(totalVal).toLocaleString('en-IN'):'₹0';
   document.getElementById('stat-val-sub').textContent=`${pendingOrders.length} pending orders`;
 
@@ -692,7 +725,7 @@ function updateStats(){
   orders.forEach(o=>{
     const k=getMonthKey(o.poDate)||getMonthKey(o.date)||'Unknown';
     if(!monthMap[k])monthMap[k]={val:0,count:0};
-    monthMap[k].val+=parseFloat(o.grand||o.total)||0;
+    monthMap[k].val+=calcPendingValue(o)||0;
     monthMap[k].count++;
   });
   const curKey=getMonthKey(new Date().toISOString());
@@ -765,11 +798,15 @@ function renderTable(){
       <td class="mono-cell">${fmtDate(o.poDate)}</td>
       <td><div class="part-name">${o.part}</div>${o.poRef?`<div style="font-size:10px;color:var(--muted)">${o.poRef}</div>`:''}</td>
       <td class="customer-name">${o.customer||'—'}</td>
-      <td class="mono-cell">${o.qty||'—'}</td>
+      <td class="mono-cell">
+        ${(o.dispatched>0)?`<span style="font-weight:700;color:var(--danger)">${parseFloat(o.qty||0)-o.dispatched} pending</span><br><span style="font-size:9px;color:var(--muted)">of ${o.qty} (${o.dispatched} dispatched)</span>`:o.qty||'—'}
+      </td>
       <td class="muted-cell">${o.material||'—'}</td>
       <td class="price-cell">${fmtMoney(o.total)}</td>
       <td class="price-cell" style="color:var(--accent)">${fmtMoney(o.gst)}</td>
-      <td class="total-cell">${fmtMoney(o.grand||o.total)}</td>
+      <td class="total-cell">
+        ${(o.dispatched>0)?`<span style="color:var(--danger);font-weight:700">${fmtMoney(calcPendingValue(o))}</span><br><span style="font-size:9px;color:var(--muted)">of ${fmtMoney(o.grand||o.total)}</span>`:fmtMoney(o.grand||o.total)}
+      </td>
       <td><span class="date-cell ${dateClass(o.date)}">${fmtDate(o.date)}${daysLabel(o.date)}</span></td>
       <td><span class="badge ${statusClass(o.status)}">${o.status}</span></td>
       <td><span class="pdot ${(o.priority||'medium').toLowerCase()}"></span><span style="font-size:11px">${o.priority||'—'}</span></td>
@@ -777,6 +814,7 @@ function renderTable(){
       <td onclick="event.stopPropagation()">
         <div class="actions">
           <button class="icon-btn wa-btn" onclick="quickWA('${o.id}')" title="WhatsApp">📲</button>
+          <button class="icon-btn" style="color:var(--success)" onclick="openDispatchModal('${o.id}')" title="Dispatch">🚚</button>
           <button class="icon-btn" onclick="editOrder('${o.id}')" title="Edit">✏</button>
           <button class="icon-btn del" onclick="deleteOrder('${o.id}')" title="Delete">✕</button>
         </div>
@@ -1084,6 +1122,90 @@ function exportExcel(){
   showToast('Excel exported!');
 }
 
+
+// ===== PARTIAL DISPATCH =====
+let dispatchTargetId=null;
+
+function calcPendingValue(o){
+  const totalQty=parseFloat(o.qty)||0;
+  const dispatched=parseFloat(o.dispatched)||0;
+  const pendingQty=totalQty-dispatched;
+  const grand=parseFloat(o.grand||o.total)||0;
+  if(!totalQty)return grand;
+  return (pendingQty/totalQty)*grand;
+}
+
+function openDispatchModal(id){
+  const o=orders.find(x=>x.id===id);if(!o)return;
+  dispatchTargetId=id;
+  const totalQty=parseFloat(o.qty)||0;
+  const alreadyDisp=parseFloat(o.dispatched)||0;
+  const remaining=totalQty-alreadyDisp;
+  document.getElementById('dispatch-info').innerHTML=
+    '<strong style="color:var(--navy)">'+o.part+'</strong><br>'+
+    'Customer: <strong>'+(o.customer||'—')+'</strong><br>'+
+    'Total Order Qty: <strong>'+totalQty+' nos</strong>'+
+    (alreadyDisp>0?'  |  Already Dispatched: <strong style="color:var(--success)">'+alreadyDisp+' nos</strong>':'')+
+    '<br>Remaining: <strong style="color:var(--danger)">'+remaining+' nos</strong>'+
+    '<br>Order Value: <strong>'+fmtMoney(o.grand||o.total)+'</strong>  |  Pending Value: <strong style="color:var(--danger)">'+fmtMoney(calcPendingValue(o))+'</strong>';
+  document.getElementById('disp-qty').value='';
+  document.getElementById('disp-date').value=new Date().toISOString().slice(0,10);
+  document.getElementById('disp-ref').value='';
+  document.getElementById('disp-preview-wrap').style.display='none';
+  document.getElementById('dispatch-modal').classList.add('active');
+}
+
+function calcDispatch(){
+  const o=orders.find(x=>x.id===dispatchTargetId);if(!o)return;
+  const qty=parseFloat(document.getElementById('disp-qty').value)||0;
+  const totalQty=parseFloat(o.qty)||0;
+  const alreadyDisp=parseFloat(o.dispatched)||0;
+  const remaining=totalQty-alreadyDisp;
+  const wrap=document.getElementById('disp-preview-wrap');
+  const preview=document.getElementById('disp-preview');
+  if(qty<=0){wrap.style.display='none';return;}
+  if(qty>remaining){
+    preview.style.color='var(--danger)';
+    preview.textContent='⚠ Cannot dispatch more than remaining qty ('+remaining+' nos)';
+    wrap.style.display='block';return;
+  }
+  const grand=parseFloat(o.grand||o.total)||0;
+  const dispVal=totalQty>0?(qty/totalQty)*grand:0;
+  const newRemaining=remaining-qty;
+  const newPendingVal=totalQty>0?(newRemaining/totalQty)*grand:0;
+  preview.style.color='var(--gold)';
+  preview.innerHTML=
+    'Dispatching: '+qty+' nos  |  Value: '+fmtMoney(dispVal)+'<br>'+
+    'After dispatch: '+newRemaining+' nos remaining  |  Pending Value: '+fmtMoney(newPendingVal)+
+    (newRemaining===0?'<br><strong style="color:var(--success)">✅ Order fully dispatched!</strong>':'');
+  wrap.style.display='block';
+}
+
+async function confirmDispatch(){
+  const o=orders.find(x=>x.id===dispatchTargetId);if(!o)return;
+  const qty=parseFloat(document.getElementById('disp-qty').value)||0;
+  const totalQty=parseFloat(o.qty)||0;
+  const alreadyDisp=parseFloat(o.dispatched)||0;
+  const remaining=totalQty-alreadyDisp;
+  if(!qty||qty<=0){showToast('Enter dispatch quantity!','error');return;}
+  if(qty>remaining){showToast('Cannot dispatch more than remaining!','error');return;}
+  const ref=document.getElementById('disp-ref').value.trim();
+  const date=document.getElementById('disp-date').value;
+  // Update order
+  if(!o.dispatchLog)o.dispatchLog=[];
+  o.dispatchLog.push({qty,date,ref,value:((qty/totalQty)*(parseFloat(o.grand||o.total)||0)).toFixed(2)});
+  o.dispatched=(alreadyDisp+qty);
+  // If fully dispatched, update status
+  if(o.dispatched>=totalQty){
+    o.status='Dispatched';
+    showToast('Order fully dispatched! Status updated.');
+  }else{
+    showToast(qty+' nos dispatched. '+( totalQty-o.dispatched)+' remaining.');
+  }
+  closeModal('dispatch-modal');
+  save();renderTable();
+}
+
 // ===== WHATSAPP =====
 function buildMsg(o){
   if(!o)return'';
@@ -1134,7 +1256,7 @@ function showToast(msg){
   setTimeout(()=>t.classList.remove('show'),2800);
 }
 
-['order-modal','import-modal','wa-modal'].forEach(id=>{
+['order-modal','import-modal','wa-modal','dispatch-modal'].forEach(id=>{
   document.getElementById(id).addEventListener('click',function(e){if(e.target===this)closeModal(id);});
 });
 
