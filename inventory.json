@@ -736,39 +736,6 @@
     "txns": []
   },
   {
-    "dia": "50",
-    "inner": "40",
-    "height": "2362",
-    "qty": "10",
-    "grade": "Aluminium Pipe",
-    "material": "Brass",
-    "type": "Rod",
-    "id": "GI/RM/26/74",
-    "txns": []
-  },
-  {
-    "dia": "46",
-    "inner": "36",
-    "height": "2550",
-    "qty": "27",
-    "grade": "Aluminium Pipe",
-    "material": "Brass",
-    "type": "Rod",
-    "id": "GI/RM/26/75",
-    "txns": []
-  },
-  {
-    "dia": "46",
-    "inner": "36",
-    "height": "3000",
-    "qty": "0",
-    "grade": "Aluminium Pipe",
-    "material": "Brass",
-    "type": "Rod",
-    "id": "GI/RM/26/76",
-    "txns": []
-  },
-  {
     "dia": "46",
     "inner": "36",
     "height": "3450",
