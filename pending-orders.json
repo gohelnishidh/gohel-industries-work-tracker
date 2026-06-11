@@ -2592,7 +2592,7 @@
     "customer": "Excellent Engineering Corporation",
     "poRef": "EEC/RM/R/007/26-27 (Ch. 528)",
     "qty": "2040",
-    "material": "Brass",
+    "material": "Stainless Steel",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -2601,7 +2601,7 @@
       {
         "part": "FT016",
         "qty": "2040",
-        "material": "Brass"
+        "material": "Stainless Steel"
       }
     ],
     "date": "2026-05-31",
