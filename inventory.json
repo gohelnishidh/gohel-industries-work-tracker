@@ -736,17 +736,6 @@
     "txns": []
   },
   {
-    "dia": "70",
-    "inner": "60",
-    "height": "3860",
-    "qty": "3",
-    "grade": "Aluminium Pipe",
-    "material": "Brass",
-    "type": "Rod",
-    "id": "GI/RM/26/69",
-    "txns": []
-  },
-  {
     "dia": "63.5",
     "inner": "50",
     "height": "4100",
