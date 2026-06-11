@@ -1,26 +1,6 @@
 [
   {
     "dia": "310",
-    "length": "38",
-    "qty": "1",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/01",
-    "txns": []
-  },
-  {
-    "dia": "310",
-    "length": "33",
-    "qty": "1",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/02",
-    "txns": []
-  },
-  {
-    "dia": "310",
     "length": "42",
     "qty": "2",
     "material": "Aluminium",
