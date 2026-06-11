@@ -1,45 +1,5 @@
 [
   {
-    "dia": "201",
-    "height": "25",
-    "qty": "1",
-    "material": "Aluminium",
-    "grade": "6082 T6",
-    "type": "Rod",
-    "id": "GI/RM/26/31",
-    "txns": []
-  },
-  {
-    "dia": "203",
-    "height": "13",
-    "qty": "2",
-    "material": "Aluminium",
-    "grade": "6082 T6",
-    "type": "Rod",
-    "id": "GI/RM/26/32",
-    "txns": []
-  },
-  {
-    "dia": "180",
-    "height": "20",
-    "qty": "5",
-    "material": "Aluminium",
-    "grade": "6082 T6",
-    "type": "Rod",
-    "id": "GI/RM/26/33",
-    "txns": []
-  },
-  {
-    "dia": "180",
-    "height": "18",
-    "qty": "1",
-    "material": "Aluminium",
-    "grade": "6082 T6",
-    "type": "Rod",
-    "id": "GI/RM/26/34",
-    "txns": []
-  },
-  {
     "dia": "180",
     "height": "70",
     "qty": "1",
