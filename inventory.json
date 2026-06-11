@@ -16,5 +16,95 @@
     "supplier": "Panthrod Inc.",
     "notes": "",
     "txns": []
+  },
+  {
+    "dia": "395 x 210",
+    "height": "16",
+    "qty": "2",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/02",
+    "txns": []
+  },
+  {
+    "dia": "400",
+    "height": "25",
+    "qty": "2",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/03",
+    "txns": []
+  },
+  {
+    "dia": "375 x 248",
+    "height": "16",
+    "qty": "3",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/04",
+    "txns": []
+  },
+  {
+    "dia": "333",
+    "height": "25.4",
+    "qty": "1",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/05",
+    "txns": []
+  },
+  {
+    "dia": "326x138",
+    "height": "25",
+    "qty": "2",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/06",
+    "txns": []
+  },
+  {
+    "dia": "320",
+    "height": "20",
+    "qty": "1",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/07",
+    "txns": []
+  },
+  {
+    "dia": "320 x 50",
+    "height": "59",
+    "qty": "3",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/08",
+    "txns": []
+  },
+  {
+    "dia": "310",
+    "height": "38",
+    "qty": "1",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/09",
+    "txns": []
+  },
+  {
+    "dia": "310",
+    "height": "33",
+    "qty": "1",
+    "material": "Aluminium",
+    "type": "Rod",
+    "grade": "Aluminium Rod",
+    "id": "GI/RM/26/10",
+    "txns": []
   }
 ]
