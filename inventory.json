@@ -18,13 +18,21 @@
     "txns": []
   },
   {
-    "dia": "395 x 210",
-    "height": "16",
-    "qty": "2",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
     "id": "GI/RM/26/02",
+    "material": "Aluminium",
+    "grade": "Aluminium Rod",
+    "type": "Rod",
+    "dia": "",
+    "inner": "",
+    "side": "",
+    "width": "",
+    "height": "16",
+    "length": "",
+    "qty": "2",
+    "rate": "220",
+    "minQty": "",
+    "supplier": "",
+    "notes": "",
     "txns": []
   },
   {
