@@ -6505,5 +6505,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/270",
+    "poDate": "2026-06-06",
+    "part": "EPROCALCP031",
+    "customer": "ECS Industries Pvt. Ltd.",
+    "poRef": "P0019926",
+    "qty": "200",
+    "material": "Aluminium",
+    "price": "",
+    "total": "1036000.00",
+    "gst": "186480.00",
+    "grand": "1222480.00",
+    "items": [
+      {
+        "part": "EPROCALCP031",
+        "qty": "200",
+        "material": "Aluminium",
+        "price": "5180"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
