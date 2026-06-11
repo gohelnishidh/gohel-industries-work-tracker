@@ -18,16 +18,6 @@
     "txns": []
   },
   {
-    "dia": "400",
-    "height": "25",
-    "qty": "2",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/03",
-    "txns": []
-  },
-  {
     "id": "GI/RM/26/04",
     "material": "Aluminium",
     "grade": "Aluminium Rod",
