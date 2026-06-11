@@ -911,14 +911,21 @@
     "txns": []
   },
   {
+    "id": "GI/RM/26/85",
+    "material": "Aluminium",
+    "grade": "Aluminium Sheet",
+    "type": "Sheet",
     "dia": "320",
     "inner": "50",
+    "side": "",
+    "width": "320",
+    "height": "50",
     "length": "59",
     "qty": "3",
-    "material": "Aluminium",
-    "type": "Sheet",
-    "grade": "Aluminium Sheet",
-    "id": "GI/RM/26/85",
+    "rate": "",
+    "minQty": "",
+    "supplier": "",
+    "notes": "",
     "txns": []
   },
   {
