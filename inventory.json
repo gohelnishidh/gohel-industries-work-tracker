@@ -815,17 +815,6 @@
   {
     "dia": "46",
     "inner": "36",
-    "length": "3000",
-    "qty": "0",
-    "material": "Aluminium",
-    "type": "Pipe",
-    "grade": "Aluminium Pipe",
-    "id": "GI/RM/26/76",
-    "txns": []
-  },
-  {
-    "dia": "46",
-    "inner": "36",
     "length": "3450",
     "qty": "21",
     "material": "Aluminium",
