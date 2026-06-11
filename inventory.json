@@ -755,17 +755,6 @@
   },
   {
     "dia": "50",
-    "inner": "38",
-    "length": "2700",
-    "qty": "0",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/74",
-    "txns": []
-  },
-  {
-    "dia": "50",
     "inner": "40",
     "length": "2362",
     "qty": "10",
