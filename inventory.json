@@ -736,24 +736,6 @@
     "txns": []
   },
   {
-    "id": "GI/RM/26/69",
-    "material": "Aluminium",
-    "grade": "6082 T6",
-    "type": "Rod",
-    "dia": "310",
-    "inner": "",
-    "side": "",
-    "width": "",
-    "height": "",
-    "length": "33",
-    "qty": "1",
-    "rate": "300",
-    "minQty": "",
-    "supplier": "",
-    "notes": "",
-    "txns": []
-  },
-  {
     "dia": "50",
     "inner": "40",
     "length": "2362",
@@ -828,17 +810,6 @@
     "type": "Rod",
     "grade": "Aluminium Rod",
     "id": "GI/RM/26/81",
-    "txns": []
-  },
-  {
-    "dia": "105",
-    "inner": "78",
-    "length": "400",
-    "qty": "1",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/82",
     "txns": []
   }
 ]
