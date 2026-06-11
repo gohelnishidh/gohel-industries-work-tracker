@@ -734,27 +734,5 @@
     "supplier": "",
     "notes": "",
     "txns": []
-  },
-  {
-    "dia": "50",
-    "inner": "40",
-    "length": "2362",
-    "qty": "10",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/75",
-    "txns": []
-  },
-  {
-    "dia": "46",
-    "inner": "36",
-    "length": "2550",
-    "qty": "27",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/76",
-    "txns": []
   }
 ]
