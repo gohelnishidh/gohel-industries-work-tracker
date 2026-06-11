@@ -1,45 +1,5 @@
 [
   {
-    "dia": "254",
-    "length": "26",
-    "qty": "1",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/21",
-    "txns": []
-  },
-  {
-    "dia": "244",
-    "length": "25",
-    "qty": "1",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/22",
-    "txns": []
-  },
-  {
-    "dia": "240",
-    "length": "25",
-    "qty": "1",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/23",
-    "txns": []
-  },
-  {
-    "dia": "228",
-    "length": "25",
-    "qty": "2",
-    "material": "Aluminium",
-    "type": "Rod",
-    "grade": "Aluminium Rod",
-    "id": "GI/RM/26/24",
-    "txns": []
-  },
-  {
     "dia": "222",
     "length": "500",
     "qty": "1",
