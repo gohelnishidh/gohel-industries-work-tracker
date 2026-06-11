@@ -1,23 +1,5 @@
 [
   {
-    "id": "GI/RM/26/01",
-    "material": "Aluminium",
-    "grade": "6082 T6",
-    "type": "Rod",
-    "dia": "220",
-    "inner": "",
-    "side": "",
-    "width": "",
-    "height": "",
-    "length": "20",
-    "qty": "10",
-    "rate": "220",
-    "minQty": "",
-    "supplier": "Panthrod Inc.",
-    "notes": "",
-    "txns": []
-  },
-  {
     "id": "GI/RM/26/02",
     "material": "Aluminium",
     "grade": "Aluminium Rod",
