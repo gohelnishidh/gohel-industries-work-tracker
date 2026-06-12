@@ -945,5 +945,23 @@
     "supplier": "",
     "notes": "",
     "txns": []
+  },
+  {
+    "id": "GI/RM/26/87",
+    "material": "Aluminium",
+    "grade": "Flat bar",
+    "type": "Flat Bar",
+    "dia": "",
+    "inner": "",
+    "side": "",
+    "width": "152",
+    "height": "20",
+    "length": "765",
+    "qty": "1",
+    "rate": "",
+    "minQty": "",
+    "supplier": "",
+    "notes": "",
+    "txns": []
   }
 ]
