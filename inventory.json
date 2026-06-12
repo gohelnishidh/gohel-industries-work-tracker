@@ -929,14 +929,21 @@
     "txns": []
   },
   {
+    "id": "GI/RM/26/86",
+    "material": "Aluminium",
+    "grade": "Aluminium Sheet",
+    "type": "Sheet",
     "dia": "268",
     "inner": "166",
+    "side": "",
+    "width": "268",
+    "height": "166",
     "length": "20",
     "qty": "16",
-    "material": "Aluminium",
-    "type": "Sheet",
-    "grade": "Aluminium Sheet",
-    "id": "GI/RM/26/86",
+    "rate": "",
+    "minQty": "",
+    "supplier": "",
+    "notes": "",
     "txns": []
   }
 ]
