@@ -647,7 +647,16 @@
     "date": "",
     "status": "In Progress",
     "priority": "Medium",
-    "notes": "9 NOS Dispatched"
+    "notes": "9 NOS Dispatched",
+    "dispatchLog": [
+      {
+        "qty": 18,
+        "date": "2026-06-12",
+        "ref": "",
+        "value": "250060.43"
+      }
+    ],
+    "dispatched": 18
   },
   {
     "id": "GI/OID/26/26",
