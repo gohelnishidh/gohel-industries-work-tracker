@@ -6408,14 +6408,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/260",
+    "poDate": "",
     "part": "PBPB952029",
-    "poDate": "2026-30-03",
+    "customer": "",
     "poRef": "POPOR26-08589",
     "qty": "4",
-    "id": "GI/OID/26/260",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "PBPB952029",
+        "qty": "4",
+        "material": "Brass"
+      }
+    ],
+    "date": "",
+    "status": "On Hold",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "PSMA024101B",
