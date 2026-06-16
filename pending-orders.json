@@ -8301,13 +8301,27 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/330",
+    "poDate": "2026-05-16",
     "part": "33-21-A24",
+    "customer": "Jyoti Ltd.",
     "poRef": "3350325",
     "qty": "50",
-    "customer": "Jyoti Ltd.",
-    "material": "S.S",
-    "id": "GI/OID/26/330",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "33-21-A24",
+        "qty": "50",
+        "material": "Stainless Steel"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
