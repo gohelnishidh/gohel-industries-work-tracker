@@ -7114,14 +7114,15 @@
     "qty": "40",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "15890.80",
+    "gst": "2860.34",
+    "grand": "18751.14",
     "items": [
       {
         "part": "237106000564",
         "qty": "40",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "397.27"
       }
     ],
     "date": "2026-08-30",
