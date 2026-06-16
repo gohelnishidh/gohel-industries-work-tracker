@@ -7176,15 +7176,28 @@
     "status": "Not Started"
   },
   {
-    "part": "237106000567",
+    "id": "GI/OID/26/290",
     "poDate": "2026-12-06",
+    "part": "237106000567",
+    "customer": "Standard Radiators",
     "poRef": "PUAL26000912",
     "qty": "100",
-    "date": "2001-07-10",
-    "id": "GI/OID/26/290",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "237106000567",
+        "qty": "100",
+        "material": "Brass"
+      }
+    ],
+    "date": "2026-07-10",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "237106000567",
