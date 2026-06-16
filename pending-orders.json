@@ -2179,7 +2179,16 @@
     "date": "2026-08-10",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 50,
+        "date": "2026-06-16",
+        "ref": "",
+        "value": "45322.62"
+      }
+    ],
+    "dispatched": 50
   },
   {
     "id": "GI/OID/26/84",
