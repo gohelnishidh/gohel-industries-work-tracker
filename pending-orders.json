@@ -7012,7 +7012,7 @@
     "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0020012",
     "qty": "25",
-    "material": "Aluminium",
+    "material": "Copper",
     "price": "",
     "total": "150000.00",
     "gst": "27000.00",
@@ -7021,7 +7021,7 @@
       {
         "part": "EALCU0000019",
         "qty": "25",
-        "material": "Aluminium",
+        "material": "Copper",
         "price": "6000"
       }
     ],
