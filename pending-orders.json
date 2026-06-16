@@ -6836,5 +6836,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/273",
+    "poDate": "2026-06-16",
+    "part": "SB",
+    "customer": "Excellent Engineering Corporation",
+    "poRef": "EEC/RM/R/xxx/26-27 (Ch. 539)",
+    "qty": "1690",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "SB",
+        "qty": "1690",
+        "material": "Stainless Steel",
+        "price": ""
+      }
+    ],
+    "date": "2026-07-31",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
