@@ -7311,14 +7311,15 @@
     "qty": "100",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "4381.00",
+    "gst": "788.58",
+    "grand": "5169.58",
     "items": [
       {
         "part": "237106000567",
         "qty": "100",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "43.81"
       }
     ],
     "date": "2026-07-30",
