@@ -7084,15 +7084,28 @@
     "status": "Not Started"
   },
   {
-    "part": "237106000565",
+    "id": "GI/OID/26/284",
     "poDate": "2026-12-06",
+    "part": "237106000565",
+    "customer": "Standard Radiators",
     "poRef": "PUAL26000912",
     "qty": "60",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "237106000565",
+        "qty": "60",
+        "material": "Aluminium"
+      }
+    ],
     "date": "2001-07-10",
-    "id": "GI/OID/26/284",
-    "material": "Brass",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "237106000565",
