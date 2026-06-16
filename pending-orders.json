@@ -649,16 +649,7 @@
     "date": "",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": "9 NOS dispatched",
-    "dispatchLog": [
-      {
-        "qty": 24,
-        "date": "2026-06-16",
-        "ref": "",
-        "value": "243858.99"
-      }
-    ],
-    "dispatched": 24
+    "notes": ""
   },
   {
     "id": "GI/OID/26/25",
