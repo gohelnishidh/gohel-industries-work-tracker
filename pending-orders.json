@@ -7569,13 +7569,27 @@
     "status": "Not Started"
   },
   {
-    "part": "F7754800006",
+    "id": "GI/OID/26/318",
     "poDate": "2026-06-12",
+    "part": "F7754800006",
+    "customer": "Acepack Technologies",
     "poRef": "PO/2627/2000458",
     "qty": "1",
-    "id": "GI/OID/26/318",
-    "material": "Brass",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "F7754800006",
+        "qty": "1",
+        "material": "Stainless Steel"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
