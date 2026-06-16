@@ -6432,14 +6432,28 @@
     "notes": ""
   },
   {
-    "part": "PSMA024101B",
+    "id": "GI/OID/26/261",
     "poDate": "2026-06-04",
+    "part": "PSMA024101B",
+    "customer": "",
     "poRef": "POPOR27-0004",
     "qty": "1",
-    "id": "GI/OID/26/261",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "PSMA024101B",
+        "qty": "1",
+        "material": "Brass"
+      }
+    ],
+    "date": "",
+    "status": "On Hold",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "PBPB040104",
