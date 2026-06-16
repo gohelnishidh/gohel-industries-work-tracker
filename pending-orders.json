@@ -6526,7 +6526,7 @@
   },
   {
     "id": "GI/OID/26/258",
-    "poDate": "",
+    "poDate": "2026-05-16",
     "part": "MR8040X",
     "customer": "",
     "poRef": "POPOR26-08354",
@@ -6550,7 +6550,7 @@
   },
   {
     "id": "GI/OID/26/259",
-    "poDate": "",
+    "poDate": "2026-05-16",
     "part": "MR7000X",
     "customer": "",
     "poRef": "POPOR26-08354",
@@ -6574,7 +6574,7 @@
   },
   {
     "id": "GI/OID/26/260",
-    "poDate": "",
+    "poDate": "2026-05-16",
     "part": "PBPB952029",
     "customer": "",
     "poRef": "POPOR26-08589",
@@ -8061,34 +8061,76 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/320",
+    "poDate": "2026-05-16",
     "part": "33-22-465",
+    "customer": "Jyoti Ltd.",
     "poRef": "4100526",
     "qty": "46",
-    "customer": "Jyoti Ltd.",
     "material": "S.S",
-    "id": "GI/OID/26/320",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "33-22-465",
+        "qty": "46",
+        "material": "S.S"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
+    "id": "GI/OID/26/321",
+    "poDate": "2026-05-16",
     "part": "33-22-357",
+    "customer": "Jyoti Ltd.",
     "poRef": "4104925",
     "qty": "100",
-    "customer": "Jyoti Ltd.",
     "material": "S.S",
-    "id": "GI/OID/26/321",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "33-22-357",
+        "qty": "100",
+        "material": "S.S"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
+    "id": "GI/OID/26/322",
+    "poDate": "2026-05-16",
     "part": "33-22-465",
+    "customer": "Jyoti Ltd.",
     "poRef": "4107125",
     "qty": "50",
-    "customer": "Jyoti Ltd.",
     "material": "S.S",
-    "id": "GI/OID/26/322",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "33-22-465",
+        "qty": "50",
+        "material": "S.S"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "33-21-G74",
