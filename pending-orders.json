@@ -1725,14 +1725,15 @@
     "qty": "5",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "275.00",
+    "gst": "49.50",
+    "grand": "324.50",
     "items": [
       {
         "part": "33-21-463",
         "qty": "5",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "55"
       }
     ],
     "date": "",
