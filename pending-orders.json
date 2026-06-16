@@ -8253,14 +8253,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/328",
+    "poDate": "2026-05-16",
     "part": "33-21-D78",
+    "customer": "Jyoti Ltd.",
     "poRef": "3304726",
     "qty": "100",
-    "customer": "Jyoti Ltd.",
-    "material": "S.S",
-    "id": "GI/OID/26/328",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "33-21-D78",
+        "qty": "100",
+        "material": "Stainless Steel"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "id": "GI/OID/26/329",
