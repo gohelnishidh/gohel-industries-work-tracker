@@ -7365,14 +7365,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/306",
+    "poDate": "2026-05-28",
     "part": "F6060100144",
-    "poDate": "2026-28-05",
+    "customer": "Acepack Technologies",
     "poRef": "PO/2627/2000455",
     "qty": "13",
-    "id": "GI/OID/26/306",
-    "material": "Brass",
+    "material": "Mild Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "F6060100144",
+        "qty": "13",
+        "material": "Mild Steel"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "F6060100049",
