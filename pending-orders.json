@@ -5920,7 +5920,16 @@
     "date": "",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 101,
+        "date": "2026-06-13",
+        "ref": "",
+        "value": "0.00"
+      }
+    ],
+    "dispatched": 101
   },
   {
     "id": "GI/OID/26/238",
