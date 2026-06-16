@@ -1859,18 +1859,9 @@
       }
     ],
     "date": "2026-05-09",
-    "status": "Ready",
+    "status": "Dispatched",
     "priority": "Medium",
-    "notes": "1500 nos dispatched+833",
-    "dispatchLog": [
-      {
-        "qty": 2333,
-        "date": "2026-06-16",
-        "ref": "",
-        "value": "121129.36"
-      }
-    ],
-    "dispatched": 2333
+    "notes": "1500 nos dispatched+833"
   },
   {
     "id": "GI/OID/26/72",
