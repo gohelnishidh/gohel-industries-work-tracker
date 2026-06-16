@@ -1700,14 +1700,15 @@
     "qty": "44",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1716.00",
+    "gst": "308.88",
+    "grand": "2024.88",
     "items": [
       {
         "part": "33-21-K18",
         "qty": "44",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "39"
       }
     ],
     "date": "",
