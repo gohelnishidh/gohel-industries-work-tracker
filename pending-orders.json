@@ -6360,14 +6360,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/258",
+    "poDate": "",
     "part": "MR8040X",
-    "poDate": "2026-20-03",
+    "customer": "",
     "poRef": "POPOR26-08354",
     "qty": "1",
-    "id": "GI/OID/26/258",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "MR8040X",
+        "qty": "1",
+        "material": "Brass"
+      }
+    ],
+    "date": "",
+    "status": "On Hold",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "MR7000X",
