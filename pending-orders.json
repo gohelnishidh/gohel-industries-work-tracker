@@ -6786,5 +6786,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/271",
+    "poDate": "2026-01-12",
+    "part": "D-1/ SB",
+    "customer": "Excellent Engineering Corporation",
+    "poRef": "EEC/RM/R/xxx/25-26 (Ch. 537)",
+    "qty": "3060",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "D-1/ SB",
+        "qty": "3060",
+        "material": "Stainless Steel",
+        "price": ""
+      }
+    ],
+    "date": "2026-07-05",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
