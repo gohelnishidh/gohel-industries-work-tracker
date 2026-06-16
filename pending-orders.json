@@ -7039,15 +7039,15 @@
     "qty": "25",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "245000.00",
+    "gst": "44100.00",
+    "grand": "289100.00",
     "items": [
       {
         "part": "EALCU0000006",
         "qty": "25",
         "material": "Aluminium",
-        "price": ""
+        "price": "9800"
       }
     ],
     "date": "",
