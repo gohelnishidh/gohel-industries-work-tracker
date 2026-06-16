@@ -6384,14 +6384,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/259",
+    "poDate": "",
     "part": "MR7000X",
-    "poDate": "2026-20-03",
+    "customer": "",
     "poRef": "POPOR26-08354",
     "qty": "1",
-    "id": "GI/OID/26/259",
     "material": "Brass",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "MR7000X",
+        "qty": "1",
+        "material": "Brass"
+      }
+    ],
+    "date": "",
+    "status": "On Hold",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "PBPB952029",
