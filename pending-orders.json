@@ -1399,7 +1399,16 @@
     "date": "",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": "130nos dispatched"
+    "notes": "130nos dispatched",
+    "dispatchLog": [
+      {
+        "qty": 129,
+        "date": "2026-06-17",
+        "ref": "",
+        "value": "235941.00"
+      }
+    ],
+    "dispatched": 129
   },
   {
     "id": "GI/OID/26/48",
