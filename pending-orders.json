@@ -7149,15 +7149,15 @@
     "qty": "3060",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "38250.00",
+    "gst": "6885.00",
+    "grand": "45135.00",
     "items": [
       {
         "part": "D-1/ SB",
         "qty": "3060",
         "material": "Stainless Steel",
-        "price": ""
+        "price": "12.5"
       }
     ],
     "date": "2026-07-05",
@@ -7174,15 +7174,15 @@
     "qty": "3016",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "37700.00",
+    "gst": "6786.00",
+    "grand": "44486.00",
     "items": [
       {
         "part": "D-1/ BB",
         "qty": "3016",
         "material": "Stainless Steel",
-        "price": ""
+        "price": "12.5"
       }
     ],
     "date": "2026-07-05",
@@ -7199,15 +7199,15 @@
     "qty": "1690",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "28104.70",
+    "gst": "5058.85",
+    "grand": "33163.55",
     "items": [
       {
         "part": "SB",
         "qty": "1690",
         "material": "Stainless Steel",
-        "price": ""
+        "price": "16.63"
       }
     ],
     "date": "2026-07-31",
@@ -7224,15 +7224,15 @@
     "qty": "1625",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "27023.75",
+    "gst": "4864.27",
+    "grand": "31888.03",
     "items": [
       {
         "part": "BB",
         "qty": "1625",
         "material": "Stainless Steel",
-        "price": ""
+        "price": "16.63"
       }
     ],
     "date": "2026-07-31",
@@ -8607,6 +8607,31 @@
       }
     ],
     "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
+  },
+  {
+    "id": "GI/OID/26/331",
+    "poDate": "2026-06-17",
+    "part": "SB",
+    "customer": "Excellent Engineering Corporation",
+    "poRef": "EEC/RM/R/24/26-27",
+    "qty": "1040",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "17680.00",
+    "gst": "3182.40",
+    "grand": "20862.40",
+    "items": [
+      {
+        "part": "SB",
+        "qty": "1040",
+        "material": "Stainless Steel",
+        "price": "17"
+      }
+    ],
+    "date": "2026-08-13",
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
