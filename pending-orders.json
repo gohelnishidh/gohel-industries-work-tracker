@@ -1012,7 +1012,16 @@
     "date": "2026-06-08",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 6,
+        "date": "2026-06-17",
+        "ref": "",
+        "value": "0.00"
+      }
+    ],
+    "dispatched": 6
   },
   {
     "id": "GI/OID/26/35",
