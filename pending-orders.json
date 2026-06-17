@@ -3062,9 +3062,18 @@
       }
     ],
     "date": "2026-05-16",
-    "status": "In Progress",
+    "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 1040,
+        "date": "2026-06-17",
+        "ref": "",
+        "value": "17021.26"
+      }
+    ],
+    "dispatched": 1040
   },
   {
     "id": "GI/OID/26/107",
