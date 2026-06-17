@@ -214,16 +214,7 @@
     "date": "",
     "status": "Ready",
     "priority": "Medium",
-    "notes": "5 NOS dispatched\n3 nos ready",
-    "dispatchLog": [
-      {
-        "qty": 5,
-        "date": "2026-06-16",
-        "ref": "",
-        "value": "149882.95"
-      }
-    ],
-    "dispatched": 5
+    "notes": "3 nos ready"
   },
   {
     "id": "GI/OID/26/09",
