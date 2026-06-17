@@ -8685,5 +8685,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/334",
+    "poDate": "2026-06-17",
+    "part": "EALCU0000029",
+    "customer": "ECS Industries Pvt. Ltd.",
+    "poRef": "P0020092",
+    "qty": "12",
+    "material": "Copper",
+    "price": "",
+    "total": "133200.00",
+    "gst": "23976.00",
+    "grand": "157176.00",
+    "items": [
+      {
+        "part": "EALCU0000029",
+        "qty": "12",
+        "material": "Copper",
+        "price": "11100"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
