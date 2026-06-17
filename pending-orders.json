@@ -8760,5 +8760,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/337",
+    "poDate": "2026-06-17",
+    "part": "EALAL0000130",
+    "customer": "ECS Industries Pvt. Ltd.",
+    "poRef": "P0020092",
+    "qty": "15",
+    "material": "Aluminium",
+    "price": "",
+    "total": "36750.00",
+    "gst": "6615.00",
+    "grand": "43365.00",
+    "items": [
+      {
+        "part": "EALAL0000130",
+        "qty": "15",
+        "material": "Aluminium",
+        "price": "2450"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
