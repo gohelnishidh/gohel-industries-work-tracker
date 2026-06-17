@@ -3057,14 +3057,15 @@
     "qty": "1000",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "13870.00",
+    "gst": "2496.60",
+    "grand": "16366.60",
     "items": [
       {
         "part": "BB",
         "qty": "1000",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "13.87"
       }
     ],
     "date": "2026-05-16",
