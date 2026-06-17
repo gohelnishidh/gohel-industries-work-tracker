@@ -305,7 +305,16 @@
     "date": "",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 504,
+        "date": "2026-05-17",
+        "ref": "",
+        "value": "2973.60"
+      }
+    ],
+    "dispatched": 504
   },
   {
     "id": "GI/OID/26/13",
