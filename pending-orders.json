@@ -8735,5 +8735,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/336",
+    "poDate": "2026-06-17",
+    "part": "ERDCU0050014",
+    "customer": "ECS Industries Pvt. Ltd.",
+    "poRef": "P0020092",
+    "qty": "12",
+    "material": "Copper",
+    "price": "",
+    "total": "802800.00",
+    "gst": "144504.00",
+    "grand": "947304.00",
+    "items": [
+      {
+        "part": "ERDCU0050014",
+        "qty": "12",
+        "material": "Copper",
+        "price": "66900"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
