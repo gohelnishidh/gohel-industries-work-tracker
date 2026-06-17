@@ -3032,14 +3032,15 @@
     "qty": "1040",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "14424.80",
+    "gst": "2596.46",
+    "grand": "17021.26",
     "items": [
       {
         "part": "SB",
         "qty": "1040",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "13.87"
       }
     ],
     "date": "2026-05-16",
