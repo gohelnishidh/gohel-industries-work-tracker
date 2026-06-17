@@ -6865,7 +6865,16 @@
     "date": "2026-06-08",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 23,
+        "date": "2026-06-17",
+        "ref": "",
+        "value": "116810.56"
+      }
+    ],
+    "dispatched": 23
   },
   {
     "id": "GI/OID/26/267",
