@@ -1433,7 +1433,7 @@
     "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0018656",
     "qty": "9",
-    "material": "Aluminium",
+    "material": "Copper",
     "price": "",
     "total": "60120.00",
     "gst": "10821.60",
@@ -1442,7 +1442,7 @@
       {
         "part": "EPROCOACC057",
         "qty": "9",
-        "material": "Aluminium",
+        "material": "Copper",
         "price": "6680"
       }
     ],
