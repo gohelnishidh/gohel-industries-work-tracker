@@ -8466,14 +8466,15 @@
     "qty": "2",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1000.00",
+    "gst": "180.00",
+    "grand": "1180.00",
     "items": [
       {
         "part": "F7734800024",
         "qty": "2",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "500"
       }
     ],
     "date": "",
