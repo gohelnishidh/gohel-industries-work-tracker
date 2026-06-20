@@ -7336,15 +7336,15 @@
     "qty": "75",
     "material": "Copper",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "26250.00",
+    "gst": "4725.00",
+    "grand": "30975.00",
     "items": [
       {
         "part": "JWI-000606/ JP-00047",
         "qty": "75",
         "material": "Copper",
-        "price": ""
+        "price": "350"
       }
     ],
     "date": "",
