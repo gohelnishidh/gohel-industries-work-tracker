@@ -4813,16 +4813,17 @@
     "customer": "Acepack Technologies",
     "poRef": "PO/2627/2000182",
     "qty": "5",
-    "material": "Brass",
+    "material": "Mild Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "3750.00",
+    "gst": "675.00",
+    "grand": "4425.00",
     "items": [
       {
         "part": "FB030100017",
         "qty": "5",
-        "material": "Brass"
+        "material": "Mild Steel",
+        "price": "750"
       }
     ],
     "date": "",
