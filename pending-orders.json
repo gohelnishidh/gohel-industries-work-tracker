@@ -7055,14 +7055,15 @@
     "qty": "8",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "3600.00",
+    "gst": "648.00",
+    "grand": "4248.00",
     "items": [
       {
         "part": "F8753500036",
         "qty": "8",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "450"
       }
     ],
     "date": "",
