@@ -8441,14 +8441,15 @@
     "qty": "1",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "24000.00",
+    "gst": "4320.00",
+    "grand": "28320.00",
     "items": [
       {
         "part": "F7734800013",
         "qty": "1",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "24000"
       }
     ],
     "date": "",
