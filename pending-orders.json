@@ -7003,29 +7003,21 @@
     "qty": "16",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "8800.00",
+    "gst": "1584.00",
+    "grand": "10384.00",
     "items": [
       {
         "part": "F8743100008",
         "qty": "16",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "550"
       }
     ],
     "date": "",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": "",
-    "dispatchLog": [
-      {
-        "qty": 16,
-        "date": "2026-06-19",
-        "ref": "",
-        "value": "0.00"
-      }
-    ],
-    "dispatched": 16
+    "notes": ""
   },
   {
     "id": "GI/OID/26/254",
