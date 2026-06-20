@@ -8199,7 +8199,16 @@
     "date": "",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 144,
+        "date": "2026-06-16",
+        "ref": "",
+        "value": "25488.00"
+      }
+    ],
+    "dispatched": 144
   },
   {
     "id": "GI/OID/26/304",
