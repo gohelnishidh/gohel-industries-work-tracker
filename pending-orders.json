@@ -6473,7 +6473,16 @@
     "date": "",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 128,
+        "date": "2026-06-16",
+        "ref": "",
+        "value": "0.00"
+      }
+    ],
+    "dispatched": 128
   },
   {
     "id": "GI/OID/26/237",
