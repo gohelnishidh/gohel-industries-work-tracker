@@ -6179,16 +6179,17 @@
     "customer": "Acepack Technologies",
     "poRef": "PO/2627/2000395",
     "qty": "6",
-    "material": "Brass",
+    "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "12000.00",
+    "gst": "2160.00",
+    "grand": "14160.00",
     "items": [
       {
         "part": "F8422900014",
         "qty": "6",
-        "material": "Brass"
+        "material": "Aluminium",
+        "price": "2000"
       }
     ],
     "date": "",
