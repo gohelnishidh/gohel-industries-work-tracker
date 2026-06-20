@@ -7017,7 +7017,16 @@
     "date": "",
     "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 16,
+        "date": "2026-06-19",
+        "ref": "",
+        "value": "10384.00"
+      }
+    ],
+    "dispatched": 16
   },
   {
     "id": "GI/OID/26/254",
