@@ -4640,14 +4640,15 @@
     "qty": "42",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "14700.00",
+    "gst": "2646.00",
+    "grand": "17346.00",
     "items": [
       {
         "part": "F5764300018",
         "qty": "42",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "350"
       }
     ],
     "date": "",
