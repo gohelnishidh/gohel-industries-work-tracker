@@ -8091,14 +8091,15 @@
     "qty": "10",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "20000.00",
+    "gst": "3600.00",
+    "grand": "23600.00",
     "items": [
       {
         "part": "F6062500001",
         "qty": "10",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "2000"
       }
     ],
     "date": "",
