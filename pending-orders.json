@@ -7941,14 +7941,15 @@
     "qty": "118",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "17700.00",
+    "gst": "3186.00",
+    "grand": "20886.00",
     "items": [
       {
         "part": "F6060100001",
         "qty": "118",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "150"
       }
     ],
     "date": "",
