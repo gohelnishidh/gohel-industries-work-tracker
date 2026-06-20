@@ -6006,15 +6006,15 @@
     "qty": "4",
     "material": "Stainless Steel",
     "price": "",
-    "total": "6800.00",
-    "gst": "1224.00",
-    "grand": "8024.00",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
     "items": [
       {
         "part": "F8712800021",
         "qty": "4",
         "material": "Stainless Steel",
-        "price": "1700"
+        "price": ""
       }
     ],
     "date": "",
