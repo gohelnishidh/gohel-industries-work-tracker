@@ -7966,14 +7966,15 @@
     "qty": "150",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "22500.00",
+    "gst": "4050.00",
+    "grand": "26550.00",
     "items": [
       {
         "part": "F6060100003",
         "qty": "150",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "150"
       }
     ],
     "date": "",
