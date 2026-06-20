@@ -3314,14 +3314,15 @@
     "qty": "1",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "4900.00",
+    "gst": "882.00",
+    "grand": "5782.00",
     "items": [
       {
         "part": "F8742800001",
         "qty": "1",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "4900"
       }
     ],
     "date": "",
