@@ -8116,14 +8116,15 @@
     "qty": "10",
     "material": "Mild Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "9000.00",
+    "gst": "1620.00",
+    "grand": "10620.00",
     "items": [
       {
         "part": "F6062500002",
         "qty": "10",
-        "material": "Mild Steel"
+        "material": "Mild Steel",
+        "price": "900"
       }
     ],
     "date": "",
