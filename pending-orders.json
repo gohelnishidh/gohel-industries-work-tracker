@@ -8391,14 +8391,15 @@
     "qty": "1",
     "material": "Mild Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "3000.00",
+    "gst": "540.00",
+    "grand": "3540.00",
     "items": [
       {
         "part": "F7724800046",
         "qty": "1",
-        "material": "Mild Steel"
+        "material": "Mild Steel",
+        "price": "3000"
       }
     ],
     "date": "",
