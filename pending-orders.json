@@ -5554,16 +5554,17 @@
     "customer": "Acepack Technologies",
     "poRef": "PO/2627/2000395",
     "qty": "4",
-    "material": "Brass",
+    "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "3000.00",
+    "gst": "540.00",
+    "grand": "3540.00",
     "items": [
       {
         "part": "F7720100030",
         "qty": "4",
-        "material": "Brass"
+        "material": "Stainless Steel",
+        "price": "750"
       }
     ],
     "date": "",
