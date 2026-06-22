@@ -303,6 +303,7 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
         <option value="">All Months</option>
       </select>
       <div class="btn-group">
+        <button class="btn" id="hide-dispatched-btn" onclick="toggleHideDispatched()" style="background:var(--success);color:#fff;">👁 Hide Dispatched</button>
         <button class="btn btn-wa" onclick="openWAModal()">📲 WhatsApp</button>
         <button class="btn btn-excel-imp" onclick="openImportModal()">📥 Import Excel</button>
         <button class="btn btn-excel-exp" onclick="exportExcel()">📊 Export Excel</button>
@@ -322,6 +323,10 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
       <span style="font-size:12px;opacity:0.8" id="cs-ready-count"></span>
       <span style="opacity:0.4">|</span>
       <span style="font-size:13px;font-weight:700;color:#34d399">Ready Stock: <span id="cs-ready-val"></span></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:12px;opacity:0.8" id="cs-dispatched-count"></span>
+      <span style="opacity:0.4">|</span>
+      <span style="font-size:13px;font-weight:700;color:#a78bfa">Dispatched: <span id="cs-dispatched-val"></span></span>
       <span style="opacity:0.4">|</span>
       <span style="font-size:13px;font-weight:700;color:#6ee7b7">Grand Total: <span id="cs-total"></span></span>
     </div>
@@ -747,6 +752,19 @@ function updateStats(){
 }
 
 // ===== TABLE =====
+let hideDispatched=true;
+function toggleHideDispatched(){
+  hideDispatched=!hideDispatched;
+  const btn=document.getElementById('hide-dispatched-btn');
+  if(hideDispatched){
+    btn.style.background='var(--success)';
+    btn.textContent='👁 Hide Dispatched';
+  } else {
+    btn.style.background='var(--muted)';
+    btn.textContent='👁 Show Dispatched';
+  }
+  renderTable();
+}
 function renderTable(){
   const q=document.getElementById('search').value.toLowerCase();
   const sf=document.getElementById('status-filter').value;
@@ -755,7 +773,8 @@ function renderTable(){
   let filtered=orders.filter(o=>{
     const mq=!q||o.id.toLowerCase().includes(q)||o.part.toLowerCase().includes(q)||(o.customer||'').toLowerCase().includes(q)||(o.poRef||'').toLowerCase().includes(q);
     const mk=getMonthKey(o.poDate)||getMonthKey(o.date)||'Unknown';
-    return mq&&(!sf||o.status===sf)&&(!pf||o.priority===pf)&&(!mf||mk===mf);
+    const hd=hideDispatched&&!sf?o.status!=='Dispatched':true;
+    return mq&&(!sf||o.status===sf)&&(!pf||o.priority===pf)&&(!mf||mk===mf)&&hd;
   });
   filtered.sort((a,b)=>{
     const da=a.date?new Date(a.date):new Date('9999-12-31');
@@ -775,8 +794,10 @@ function renderTable(){
       const allC=orders.filter(o=>o.customer===c);
       const pendingC=allC.filter(o=>o.status!=='Dispatched'&&o.status!=='Ready');
       const readyC=allC.filter(o=>o.status==='Ready');
+      const dispatchedC=allC.filter(o=>o.status==='Dispatched');
       const pendingVal=pendingC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
       const readyVal=readyC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
+      const dispatchedVal=dispatchedC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
       const grandTotal=allC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
       document.getElementById('cs-name').textContent=c;
       document.getElementById('cs-orders').textContent=allC.length+' order'+(allC.length!==1?'s':'');
@@ -784,6 +805,8 @@ function renderTable(){
       document.getElementById('cs-pending-val').textContent=fmtMoney(pendingVal);
       document.getElementById('cs-ready-val').textContent=fmtMoney(readyVal);
       document.getElementById('cs-ready-count').textContent=readyC.length+' ready';
+      document.getElementById('cs-dispatched-count').textContent=dispatchedC.length+' dispatched';
+      document.getElementById('cs-dispatched-val').textContent=fmtMoney(dispatchedVal);
       document.getElementById('cs-total').textContent=fmtMoney(grandTotal);
       bar.style.display='flex';
     } else { bar.style.display='none'; }
