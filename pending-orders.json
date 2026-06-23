@@ -9347,7 +9347,7 @@
     "customer": "Axel engineering solutions",
     "poRef": "",
     "qty": "100",
-    "material": "Stainless Steel",
+    "material": "Mild Steel",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -9356,7 +9356,7 @@
       {
         "part": "Pin",
         "qty": "100",
-        "material": "Stainless Steel",
+        "material": "Mild Steel",
         "price": ""
       }
     ],
