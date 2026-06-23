@@ -216,6 +216,14 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
 .bulk-header{display:grid;grid-template-columns:2fr 1fr 1fr 1fr auto;gap:8px;padding:0 8px;margin-bottom:4px;}
 .bulk-header span{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);font-weight:700;}
 @keyframes syncpulse{0%,100%{opacity:1}50%{opacity:0.3}}
+.customer-card{background:var(--surface);border:1px solid var(--border);border-radius:3px;padding:16px 18px;box-shadow:var(--shadow);cursor:pointer;transition:box-shadow .15s,transform .1s,border-color .15s;position:relative;overflow:hidden;}
+.customer-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--navy);}
+.customer-card:hover{box-shadow:var(--shadow2);transform:translateY(-2px);border-color:var(--navy);}
+.cc-name{font-family:'Bebas Neue';font-size:17px;letter-spacing:1px;color:var(--navy);margin-bottom:10px;padding-left:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.cc-stats{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding-left:6px;}
+.cc-stat{display:flex;flex-direction:column;}
+.cc-stat-label{font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:700;}
+.cc-stat-val{font-family:'DM Mono';font-size:12px;font-weight:700;margin-top:1px;}
 .toast{position:fixed;bottom:22px;right:22px;background:var(--navy);color:#fff;padding:12px 20px;font-size:12px;font-weight:600;z-index:999;transform:translateY(60px);opacity:0;transition:all .3s;border-radius:2px;box-shadow:var(--shadow2);}
 .toast.show{transform:translateY(0);opacity:1;}
 
@@ -259,6 +267,10 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
       </div>
     </div>
     <div class="header-right">
+      <div id="nav-tabs" style="display:flex;gap:6px;margin-right:10px;">
+        <button onclick="showView('orders')" id="tab-orders" style="padding:5px 14px;background:rgba(255,255,255,.2);color:#fff;border:1px solid rgba(255,255,255,.35);cursor:pointer;font-family:'DM Sans';font-size:12px;font-weight:700;border-radius:2px;">📋 Orders</button>
+        <button onclick="showView('dashboard')" id="tab-dashboard" style="padding:5px 14px;background:transparent;color:rgba(255,255,255,.65);border:1px solid rgba(255,255,255,.2);cursor:pointer;font-family:'DM Sans';font-size:12px;font-weight:600;border-radius:2px;">📊 Dashboard</button>
+      </div>
       <span id="live-clock"></span>
       <div style="display:flex;align-items:center;gap:6px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);padding:4px 10px;border-radius:2px;font-size:10px;color:rgba(255,255,255,0.8);letter-spacing:1px;">
         <span id="sync-dot" style="width:7px;height:7px;border-radius:50%;background:#27ae60;display:inline-block;"></span>
@@ -271,6 +283,7 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
   <div class="github-bar">📡 To sync across devices — upload this file to GitHub Pages. Data is saved in browser. &nbsp;|&nbsp; <span id="last-saved">Not saved yet</span></div>
 
   <main>
+    <div id="orders-view">
     <div class="stats-row">
       <div class="stat-card s-all"><div class="stat-label">Total Orders</div><div class="stat-val" id="stat-all">0</div><div class="stat-sub">All active</div></div>
       <div class="stat-card s-ns"><div class="stat-label">Not Started</div><div class="stat-val" id="stat-ns">0</div><div class="stat-sub">Awaiting production</div></div>
@@ -347,6 +360,21 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
         <div style="font-size:12px">Add your first order or import from Excel</div>
       </div>
     </div>
+    </div><!-- end orders-view -->
+
+    <!-- DASHBOARD VIEW -->
+    <div id="dashboard-view" style="display:none;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+        <div style="font-family:'Bebas Neue';font-size:24px;letter-spacing:3px;color:var(--navy);">Customer Dashboard</div>
+        <div style="position:relative;">
+          <span style="position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:13px;">🔍</span>
+          <input type="text" id="dash-search" placeholder="Search customer..." oninput="renderDashboard()" style="padding:9px 14px 9px 34px;background:var(--surface);border:1.5px solid var(--border);color:var(--text);font-family:'DM Sans';font-size:13px;outline:none;border-radius:2px;width:220px;" />
+        </div>
+      </div>
+      <div id="dash-summary" style="background:var(--navy);color:#fff;border-radius:3px;padding:12px 18px;margin-bottom:18px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;"></div>
+      <div id="customer-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;"></div>
+    </div>
+
   </main>
 </div>
 
@@ -490,6 +518,9 @@ td{padding:10px 12px;font-size:12px;vertical-align:middle;}
 <div class="toast" id="toast"></div>
 
 <script>
+// hide dispatched flag - must be declared before renderTable
+let hideDispatched = true;
+
 // ===== PASSCODE =====
 const PASSCODE='GI@1986';
 function tryUnlock(){
@@ -752,19 +783,6 @@ function updateStats(){
 }
 
 // ===== TABLE =====
-let hideDispatched=true;
-function toggleHideDispatched(){
-  hideDispatched=!hideDispatched;
-  const btn=document.getElementById('hide-dispatched-btn');
-  if(hideDispatched){
-    btn.style.background='var(--success)';
-    btn.textContent='👁 Hide Dispatched';
-  } else {
-    btn.style.background='var(--muted)';
-    btn.textContent='👁 Show Dispatched';
-  }
-  renderTable();
-}
 function renderTable(){
   const q=document.getElementById('search').value.toLowerCase();
   const sf=document.getElementById('status-filter').value;
@@ -794,10 +812,10 @@ function renderTable(){
       const allC=orders.filter(o=>o.customer===c);
       const pendingC=allC.filter(o=>o.status!=='Dispatched'&&o.status!=='Ready');
       const readyC=allC.filter(o=>o.status==='Ready');
-      const dispatchedC=allC.filter(o=>o.status==='Dispatched');
+      const dispC=allC.filter(o=>o.status==='Dispatched');
       const pendingVal=pendingC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
       const readyVal=readyC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
-      const dispatchedVal=dispatchedC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
+      const dispVal=dispC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
       const grandTotal=allC.reduce((s,o)=>s+(parseFloat(o.grand||o.total)||0),0);
       document.getElementById('cs-name').textContent=c;
       document.getElementById('cs-orders').textContent=allC.length+' order'+(allC.length!==1?'s':'');
@@ -805,8 +823,8 @@ function renderTable(){
       document.getElementById('cs-pending-val').textContent=fmtMoney(pendingVal);
       document.getElementById('cs-ready-val').textContent=fmtMoney(readyVal);
       document.getElementById('cs-ready-count').textContent=readyC.length+' ready';
-      document.getElementById('cs-dispatched-count').textContent=dispatchedC.length+' dispatched';
-      document.getElementById('cs-dispatched-val').textContent=fmtMoney(dispatchedVal);
+      document.getElementById('cs-dispatched-count').textContent=dispC.length+' dispatched';
+      document.getElementById('cs-dispatched-val').textContent=fmtMoney(dispVal);
       document.getElementById('cs-total').textContent=fmtMoney(grandTotal);
       bar.style.display='flex';
     } else { bar.style.display='none'; }
@@ -1286,6 +1304,115 @@ function showToast(msg){
 // ===== INIT — load from GitHub =====
 renderTable();
 ghLoad().then(()=>{renderTable();refreshCustomerDatalist();});
+// ── HIDE DISPATCHED TOGGLE ────────────────────────────────────────────
+function toggleHideDispatched(){
+  hideDispatched = !hideDispatched;
+  const btn = document.getElementById('hide-dispatched-btn');
+  if(hideDispatched){
+    btn.style.background = 'var(--success)';
+    btn.textContent = '👁 Hide Dispatched';
+  } else {
+    btn.style.background = 'var(--muted)';
+    btn.textContent = '👁 Show Dispatched';
+  }
+  renderTable();
+}
+
+// ── DASHBOARD ─────────────────────────────────────────────────────────
+function showView(view){
+  const ordersEl = document.getElementById('orders-view');
+  const dashEl   = document.getElementById('dashboard-view');
+  const tabO = document.getElementById('tab-orders');
+  const tabD = document.getElementById('tab-dashboard');
+  if(view === 'orders'){
+    ordersEl.style.display = 'block';
+    dashEl.style.display   = 'none';
+    tabO.style.background  = 'rgba(255,255,255,.2)';
+    tabO.style.color       = '#fff';
+    tabO.style.borderColor = 'rgba(255,255,255,.35)';
+    tabD.style.background  = 'transparent';
+    tabD.style.color       = 'rgba(255,255,255,.65)';
+    tabD.style.borderColor = 'rgba(255,255,255,.2)';
+  } else {
+    ordersEl.style.display = 'none';
+    dashEl.style.display   = 'block';
+    tabD.style.background  = 'rgba(255,255,255,.2)';
+    tabD.style.color       = '#fff';
+    tabD.style.borderColor = 'rgba(255,255,255,.35)';
+    tabO.style.background  = 'transparent';
+    tabO.style.color       = 'rgba(255,255,255,.65)';
+    tabO.style.borderColor = 'rgba(255,255,255,.2)';
+    renderDashboard();
+  }
+}
+
+function renderDashboard(){
+  const q = (document.getElementById('dash-search').value || '').toLowerCase().trim();
+  const map = {};
+  orders.forEach(o => {
+    const cust = (o.customer || '—').trim();
+    if(!map[cust]) map[cust] = {total:0, pending:0, dispatched:0, ready:0, count:0, lastDate:''};
+    const val = parseFloat(o.grand || o.total) || 0;
+    map[cust].count++;
+    map[cust].total += val;
+    if(o.status === 'Dispatched') map[cust].dispatched += val;
+    else if(o.status === 'Ready')  map[cust].ready += val;
+    else                            map[cust].pending += val;
+    const d = o.poDate || o.date || '';
+    if(d && (!map[cust].lastDate || d > map[cust].lastDate)) map[cust].lastDate = d;
+  });
+  let gtTotal=0, gtPending=0, gtDispatched=0, gtCusts=0;
+  Object.keys(map).forEach(c => {
+    gtTotal += map[c].total;
+    gtPending += map[c].pending + map[c].ready;
+    gtDispatched += map[c].dispatched;
+    gtCusts++;
+  });
+  document.getElementById('dash-summary').innerHTML =
+    '<div style="display:flex;flex-direction:column;"><span style="font-size:8px;letter-spacing:1.5px;text-transform:uppercase;opacity:.65;font-weight:700;">Customers</span><span style="font-family:Bebas Neue;font-size:22px;line-height:1.1;">' + gtCusts + '</span></div>' +
+    '<div style="display:flex;flex-direction:column;"><span style="font-size:8px;letter-spacing:1.5px;text-transform:uppercase;opacity:.65;font-weight:700;">Total Orders</span><span style="font-family:Bebas Neue;font-size:22px;line-height:1.1;">' + orders.length + '</span></div>' +
+    '<div style="display:flex;flex-direction:column;"><span style="font-size:8px;letter-spacing:1.5px;text-transform:uppercase;opacity:.65;font-weight:700;">Total Value</span><span style="font-family:Bebas Neue;font-size:22px;line-height:1.1;color:#fbbf24;">' + fmtMoney(gtTotal) + '</span></div>' +
+    '<div style="display:flex;flex-direction:column;"><span style="font-size:8px;letter-spacing:1.5px;text-transform:uppercase;opacity:.65;font-weight:700;">Pending / Ready</span><span style="font-family:Bebas Neue;font-size:22px;line-height:1.1;color:#93c5fd;">' + fmtMoney(gtPending) + '</span></div>' +
+    '<div style="display:flex;flex-direction:column;"><span style="font-size:8px;letter-spacing:1.5px;text-transform:uppercase;opacity:.65;font-weight:700;">Dispatched</span><span style="font-family:Bebas Neue;font-size:22px;line-height:1.1;color:#6ee7b7;">' + fmtMoney(gtDispatched) + '</span></div>';
+
+  const customers = Object.keys(map).filter(c => !q || c.toLowerCase().includes(q)).sort();
+  const grid = document.getElementById('customer-grid');
+  if(customers.length === 0){
+    grid.innerHTML = '<div class="empty"><div class="empty-icon">👥</div><p>No customers found.</p></div>';
+    return;
+  }
+  grid.innerHTML = customers.map(cust => {
+    const d = map[cust];
+    const hasPending = (d.pending + d.ready) > 0;
+    const lastFmt = d.lastDate ? fmtDate(d.lastDate) : '—';
+    const safeName = cust.replace(/'/g, "\'");
+    return '<div class="customer-card" onclick="filterByCustomer(\'' + safeName + '\')">' +
+      '<div class="cc-name" title="' + cust + '">' + cust + '</div>' +
+      '<div class="cc-stats">' +
+        '<div class="cc-stat"><span class="cc-stat-label">Orders</span><span class="cc-stat-val">' + d.count + '</span></div>' +
+        '<div class="cc-stat"><span class="cc-stat-label">Last Order</span><span class="cc-stat-val">' + lastFmt + '</span></div>' +
+        '<div class="cc-stat"><span class="cc-stat-label">Total Value</span><span class="cc-stat-val" style="color:var(--gold);">' + fmtMoney(d.total) + '</span></div>' +
+        '<div class="cc-stat"><span class="cc-stat-label">Pending+Ready</span><span class="cc-stat-val" style="color:var(--info);">' + fmtMoney(d.pending + d.ready) + '</span></div>' +
+        '<div class="cc-stat"><span class="cc-stat-label">Dispatched</span><span class="cc-stat-val" style="color:#2d6a4f;">' + fmtMoney(d.dispatched) + '</span></div>' +
+      '</div>' +
+      '<span style="display:inline-flex;align-items:center;padding:2px 7px 2px 6px;font-size:9px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;border-radius:2px;margin-top:8px;' +
+        (hasPending ? 'color:var(--info);background:var(--info-light);border:1px solid #bee3f8;' : 'color:var(--success);background:var(--success-light);border:1px solid #b7efc5;') + '">' +
+        (hasPending ? '⏳ Active' : '✅ All Dispatched') + '</span>' +
+      '</div>';
+  }).join('');
+}
+
+function filterByCustomer(custName){
+  showView('orders');
+  document.getElementById('search').value = custName;
+  hideDispatched = false;
+  const btn = document.getElementById('hide-dispatched-btn');
+  if(btn){ btn.style.background='var(--muted)'; btn.textContent='👁 Show Dispatched'; }
+  renderTable();
+  document.getElementById('search').dispatchEvent(new Event('input'));
+}
+// ── END DASHBOARD ──────────────────────────────────────────────────────
+
 </script>
 </body>
 </html>
