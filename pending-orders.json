@@ -9443,5 +9443,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/343",
+    "poDate": "2026-06-26",
+    "part": "23000332 TOP COVER 245KV 800 A",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "7400000035",
+    "qty": "6",
+    "material": "Aluminium",
+    "price": "",
+    "total": "49326.00",
+    "gst": "8878.68",
+    "grand": "58204.68",
+    "items": [
+      {
+        "part": "23000332 TOP COVER 245KV 800 A",
+        "qty": "6",
+        "material": "Aluminium",
+        "price": "8221"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
