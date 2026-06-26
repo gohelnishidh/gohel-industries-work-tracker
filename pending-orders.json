@@ -9770,5 +9770,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/355",
+    "poDate": "2026-06-26",
+    "part": "33-22-125",
+    "customer": "Jyoti Ltd.",
+    "poRef": "4102326",
+    "qty": "50",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "1162.50",
+    "gst": "209.25",
+    "grand": "1371.75",
+    "items": [
+      {
+        "part": "33-22-125",
+        "qty": "50",
+        "material": "Stainless Steel",
+        "price": "23.25"
+      }
+    ],
+    "date": "2026-06-30",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
