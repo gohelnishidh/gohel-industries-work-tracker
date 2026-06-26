@@ -9677,5 +9677,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/352",
+    "poDate": "2026-06-26",
+    "part": "F6060100003",
+    "customer": "Acepack Technologies",
+    "poRef": "PO/2627/2000560",
+    "qty": "15",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "2250.00",
+    "gst": "405.00",
+    "grand": "2655.00",
+    "items": [
+      {
+        "part": "F6060100003",
+        "qty": "15",
+        "material": "Stainless Steel",
+        "price": "150"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
