@@ -9870,5 +9870,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/359",
+    "poDate": "2026-06-26",
+    "part": "D238124000813 CONNECTOR 1/4\"BSP ( 2-25-C83-SR )",
+    "customer": "Standard Radiators",
+    "poRef": "POVD26000173",
+    "qty": "5",
+    "material": "Aluminium",
+    "price": "",
+    "total": "149.45",
+    "gst": "26.90",
+    "grand": "176.35",
+    "items": [
+      {
+        "part": "D238124000813 CONNECTOR 1/4\"BSP ( 2-25-C83-SR )",
+        "qty": "5",
+        "material": "Aluminium",
+        "price": "29.89"
+      }
+    ],
+    "date": "2026-06-02",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
