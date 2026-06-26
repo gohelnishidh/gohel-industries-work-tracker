@@ -9568,5 +9568,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/348",
+    "poDate": "2026-06-26",
+    "part": "23000520",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "7400000035",
+    "qty": "8",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "3216.00",
+    "gst": "578.88",
+    "grand": "3794.88",
+    "items": [
+      {
+        "part": "23000520",
+        "qty": "8",
+        "material": "Stainless Steel",
+        "price": "402"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
