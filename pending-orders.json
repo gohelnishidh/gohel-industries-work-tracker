@@ -9543,5 +9543,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/347",
+    "poDate": "2026-06-26",
+    "part": "23000519 ",
+    "customer": "",
+    "poRef": "7400000035",
+    "qty": "13",
+    "material": "Aluminium",
+    "price": "",
+    "total": "5135.00",
+    "gst": "924.30",
+    "grand": "6059.30",
+    "items": [
+      {
+        "part": "23000519 ",
+        "qty": "13",
+        "material": "Aluminium",
+        "price": "395"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
