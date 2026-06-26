@@ -9493,5 +9493,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/345",
+    "poDate": "2026-06-26",
+    "part": "23000897",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "7400000035",
+    "qty": "6",
+    "material": "Aluminium",
+    "price": "",
+    "total": "2454.00",
+    "gst": "441.72",
+    "grand": "2895.72",
+    "items": [
+      {
+        "part": "23000897",
+        "qty": "6",
+        "material": "Aluminium",
+        "price": "409"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
