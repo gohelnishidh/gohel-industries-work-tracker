@@ -9984,8 +9984,17 @@
       }
     ],
     "date": "",
-    "status": "In Progress",
+    "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 3,
+        "date": "2026-06-26",
+        "ref": "",
+        "value": "8850.00"
+      }
+    ],
+    "dispatched": 3
   }
 ]
