@@ -9895,5 +9895,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/360",
+    "poDate": "2026-06-26",
+    "part": "D238124000814CONNECTOR 1 5/16\" 12UN-2B(TV-166)",
+    "customer": "",
+    "poRef": "",
+    "qty": "5",
+    "material": "Aluminium",
+    "price": "",
+    "total": "808.00",
+    "gst": "145.44",
+    "grand": "953.44",
+    "items": [
+      {
+        "part": "D238124000814CONNECTOR 1 5/16\" 12UN-2B(TV-166)",
+        "qty": "5",
+        "material": "Aluminium",
+        "price": "161.6"
+      }
+    ],
+    "date": "2026-07-02",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
