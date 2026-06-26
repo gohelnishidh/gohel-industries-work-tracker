@@ -9627,5 +9627,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/350",
+    "poDate": "2026-06-19",
+    "part": "F7734800004",
+    "customer": "Acepack Technologies",
+    "poRef": "PO/2627/2000543",
+    "qty": "1",
+    "material": "Mild Steel",
+    "price": "",
+    "total": "17000.00",
+    "gst": "3060.00",
+    "grand": "20060.00",
+    "items": [
+      {
+        "part": "F7734800004",
+        "qty": "1",
+        "material": "Mild Steel",
+        "price": "17000"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
