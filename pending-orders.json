@@ -9845,5 +9845,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/358",
+    "poDate": "2026-06-26",
+    "part": "D237106000798 2-25-C83-SR PIPE OL (RAD)",
+    "customer": "Standard Radiators",
+    "poRef": "POVD26000173",
+    "qty": "5",
+    "material": "Aluminium",
+    "price": "",
+    "total": "345.60",
+    "gst": "62.21",
+    "grand": "407.81",
+    "items": [
+      {
+        "part": "D237106000798 2-25-C83-SR PIPE OL (RAD)",
+        "qty": "5",
+        "material": "Aluminium",
+        "price": "69.12"
+      }
+    ],
+    "date": "2026-06-02",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
