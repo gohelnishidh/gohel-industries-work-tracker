@@ -9795,5 +9795,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/356",
+    "poDate": "2026-06-26",
+    "part": "33-22-366",
+    "customer": "Jyoti Ltd.",
+    "poRef": "4102326",
+    "qty": "22",
+    "material": "Mild Steel",
+    "price": "",
+    "total": "306.90",
+    "gst": "55.24",
+    "grand": "362.14",
+    "items": [
+      {
+        "part": "33-22-366",
+        "qty": "22",
+        "material": "Mild Steel",
+        "price": "13.95"
+      }
+    ],
+    "date": "2026-06-30",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
