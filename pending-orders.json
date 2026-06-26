@@ -9820,5 +9820,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/357",
+    "poDate": "2026-06-26",
+    "part": "D237106000791 RH PIPE - C",
+    "customer": "Standard Radiators",
+    "poRef": "POVD26000173",
+    "qty": "5",
+    "material": "Aluminium",
+    "price": "",
+    "total": "258.80",
+    "gst": "46.58",
+    "grand": "305.38",
+    "items": [
+      {
+        "part": "D237106000791 RH PIPE - C",
+        "qty": "5",
+        "material": "Aluminium",
+        "price": "51.76"
+      }
+    ],
+    "date": "2026-07-02",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
