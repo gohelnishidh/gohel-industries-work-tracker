@@ -40,6 +40,11 @@
       "name": "Raju Parmar",
       "dailyRate": 530,
       "otRate": 66
+    },
+    {
+      "name": "Radhe",
+      "dailyRate": 0,
+      "otRate": 0
     }
   ],
   "attendance": {
