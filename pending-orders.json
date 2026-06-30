@@ -1594,7 +1594,7 @@
       }
     ],
     "date": "",
-    "status": "Not Started",
+    "status": "Dispatched",
     "priority": "Medium",
     "notes": "",
     "dispatchLog": [
@@ -1603,9 +1603,15 @@
         "date": "2026-06-30",
         "ref": "",
         "value": "118826.00"
+      },
+      {
+        "qty": 150,
+        "date": "2026-06-27",
+        "ref": "",
+        "value": "178239.00"
       }
     ],
-    "dispatched": 100
+    "dispatched": 250
   },
   {
     "id": "GI/OID/26/53",
