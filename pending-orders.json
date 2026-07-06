@@ -3318,14 +3318,15 @@
     "qty": "2",
     "material": "Brass",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1200.00",
+    "gst": "216.00",
+    "grand": "1416.00",
     "items": [
       {
         "part": "F7050100047",
         "qty": "2",
-        "material": "Brass"
+        "material": "Brass",
+        "price": "600"
       }
     ],
     "date": "",
