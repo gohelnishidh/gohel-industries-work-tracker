@@ -425,9 +425,18 @@
       }
     ],
     "date": "",
-    "status": "Ready",
+    "status": "Dispatched",
     "priority": "Medium",
-    "notes": "Buffing packing pending"
+    "notes": "Buffing packing pending",
+    "dispatchLog": [
+      {
+        "qty": 15,
+        "date": "2026-07-06",
+        "ref": "",
+        "value": "836395.80"
+      }
+    ],
+    "dispatched": 15
   },
   {
     "id": "GI/OID/26/15",
