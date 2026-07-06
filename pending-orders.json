@@ -6769,7 +6769,16 @@
     "date": "",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 2,
+        "date": "2026-07-04",
+        "ref": "",
+        "value": "4366.00"
+      }
+    ],
+    "dispatched": 2
   },
   {
     "id": "GI/OID/26/231",
