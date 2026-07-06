@@ -291,7 +291,16 @@
     "date": "",
     "status": "Ready",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 6,
+        "date": "2026-06-12",
+        "ref": "",
+        "value": "360336.60"
+      }
+    ],
+    "dispatched": 6
   },
   {
     "id": "GI/OID/26/11",
