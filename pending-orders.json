@@ -11011,7 +11011,7 @@
   },
   {
     "id": "GI/OID/26/388",
-    "poDate": "2026-07-08",
+    "poDate": "2026-05-13",
     "part": "40142400BL71",
     "customer": "Aditya Birla Power Composite Ltd.",
     "poRef": "MM/108-H80051",
@@ -11030,7 +11030,7 @@
       }
     ],
     "date": "",
-    "status": "In Progress",
+    "status": "Not Started",
     "priority": "Medium",
     "notes": ""
   }
