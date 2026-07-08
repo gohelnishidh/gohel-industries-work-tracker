@@ -10408,5 +10408,30 @@
       }
     ],
     "dispatched": 3
+  },
+  {
+    "id": "GI/OID/26/362",
+    "poDate": "2026-07-06",
+    "part": "GMA006478 R0 785 - SENSOR BUSH",
+    "customer": "Banco Products (I) Limited",
+    "poRef": "1110022792",
+    "qty": "2",
+    "material": "Aluminium",
+    "price": "",
+    "total": "169.00",
+    "gst": "30.42",
+    "grand": "199.42",
+    "items": [
+      {
+        "part": "GMA006478 R0 785 - SENSOR BUSH",
+        "qty": "2",
+        "material": "Aluminium",
+        "price": "84.5"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
