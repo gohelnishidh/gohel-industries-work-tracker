@@ -10433,5 +10433,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/363",
+    "poDate": "2026-07-06",
+    "part": "GMA006772 SPINDLE P1 779",
+    "customer": "Banco Products (I) Limited",
+    "poRef": "1110022792",
+    "qty": "25",
+    "material": "Aluminium",
+    "price": "",
+    "total": "112150.00",
+    "gst": "20187.00",
+    "grand": "132337.00",
+    "items": [
+      {
+        "part": "GMA006772 SPINDLE P1 779",
+        "qty": "25",
+        "material": "Aluminium",
+        "price": "4486"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
