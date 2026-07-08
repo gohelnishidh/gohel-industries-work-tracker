@@ -11058,5 +11058,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/390",
+    "poDate": "2026-06-26",
+    "part": "40142400BL71",
+    "customer": "Aditya Birla Power Composite Ltd.",
+    "poRef": "MM/108-H60170",
+    "qty": "2",
+    "material": "Aluminium",
+    "price": "",
+    "total": "53068.00",
+    "gst": "9552.24",
+    "grand": "62620.24",
+    "items": [
+      {
+        "part": "40142400BL71",
+        "qty": "2",
+        "material": "Aluminium",
+        "price": "26534"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
