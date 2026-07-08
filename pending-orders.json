@@ -10485,36 +10485,6 @@
     "notes": ""
   },
   {
-    "id": "3",
-    "part": "GMA006773",
-    "poDate": "2026-06-07",
-    "poRef": "1110022792",
-    "qty": "25",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "id": "4",
-    "part": "GMA006774",
-    "poDate": "2026-06-07",
-    "poRef": "1110022792",
-    "qty": "25",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
-    "id": "5",
-    "part": "GMA006775",
-    "poDate": "2026-06-07",
-    "poRef": "1110022792",
-    "qty": "25",
-    "material": "Brass",
-    "priority": "Medium",
-    "status": "Not Started"
-  },
-  {
     "id": "6",
     "part": "GMA008343",
     "poDate": "2026-06-07",
