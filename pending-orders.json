@@ -10458,5 +10458,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/364",
+    "poDate": "2026-07-06",
+    "part": "GMA006773 BOSS P1 779",
+    "customer": "Banco Products (I) Limited",
+    "poRef": "1110022792",
+    "qty": "25",
+    "material": "Aluminium",
+    "price": "",
+    "total": "103925.00",
+    "gst": "18706.50",
+    "grand": "122631.50",
+    "items": [
+      {
+        "part": "GMA006773 BOSS P1 779",
+        "qty": "25",
+        "material": "Aluminium",
+        "price": "4157"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
