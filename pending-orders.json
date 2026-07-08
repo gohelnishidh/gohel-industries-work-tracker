@@ -10885,14 +10885,29 @@
     "notes": ""
   },
   {
-    "part": "GMA010472",
+    "id": "GI/OID/26/383",
     "poDate": "2026-07-06",
+    "part": "GMA010472",
+    "customer": "Banco Products (I) Limited",
     "poRef": "1110022792",
     "qty": "25",
     "material": "Aluminium",
-    "id": "GI/OID/26/383",
+    "price": "",
+    "total": "2475.00",
+    "gst": "445.50",
+    "grand": "2920.50",
+    "items": [
+      {
+        "part": "GMA010472",
+        "qty": "25",
+        "material": "Aluminium",
+        "price": "99"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "GMA010473",
