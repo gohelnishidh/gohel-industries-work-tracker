@@ -11187,7 +11187,7 @@
     "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0020224",
     "qty": "3",
-    "material": "Aluminium",
+    "material": "Copper",
     "price": "",
     "total": "0.00",
     "gst": "0.00",
@@ -11196,7 +11196,7 @@
       {
         "part": "ERDCU0050014",
         "qty": "3",
-        "material": "Aluminium"
+        "material": "Copper"
       }
     ],
     "date": "",
