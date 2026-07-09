@@ -11170,16 +11170,16 @@
     "part": "40142400BL71",
     "customer": "Aditya Birla Power Composite Ltd.",
     "poRef": "MM/108-H60170",
-    "qty": "2",
+    "qty": "4",
     "material": "Aluminium",
     "price": "",
-    "total": "53068.00",
-    "gst": "9552.24",
-    "grand": "62620.24",
+    "total": "106136.00",
+    "gst": "19104.48",
+    "grand": "125240.48",
     "items": [
       {
         "part": "40142400BL71",
-        "qty": "2",
+        "qty": "4",
         "material": "Aluminium",
         "price": "26534"
       }
