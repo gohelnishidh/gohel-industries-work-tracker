@@ -11712,14 +11712,15 @@
     "qty": "120",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "6360.00",
+    "gst": "1144.80",
+    "grand": "7504.80",
     "items": [
       {
         "part": "33-21-461",
         "qty": "120",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "53"
       }
     ],
     "date": "",
