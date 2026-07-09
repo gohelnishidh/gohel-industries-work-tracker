@@ -12014,15 +12014,15 @@
     "qty": "2",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "50392.66",
+    "gst": "9070.68",
+    "grand": "59463.34",
     "items": [
       {
         "part": "Flange",
         "qty": "2",
         "material": "Aluminium",
-        "price": ""
+        "price": "25196.33"
       }
     ],
     "date": "",
