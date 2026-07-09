@@ -11628,14 +11628,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/419",
+    "poDate": "",
     "part": "CJ PIN SACB06242 AISID3",
-    "poDate": "2026-23-04",
+    "customer": "Rotomac Industries",
     "poRef": "PO/2627/00864",
     "qty": "50",
-    "id": "GI/OID/26/419",
-    "material": "Brass",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "CJ PIN SACB06242 AISID3",
+        "qty": "50",
+        "material": "Stainless Steel"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "CJ PIN SACB01201 AISI420 HT",
