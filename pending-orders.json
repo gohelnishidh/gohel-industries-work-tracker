@@ -12079,5 +12079,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/428",
+    "poDate": "2026-07-01",
+    "part": "EALAL0000093 245kV Mounting Flange (CASTING)",
+    "customer": "RNG Exports Pvt Ltd",
+    "poRef": "JB/26-27/337",
+    "qty": "2",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "EALAL0000093 245kV Mounting Flange (CASTING)",
+        "qty": "2",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
