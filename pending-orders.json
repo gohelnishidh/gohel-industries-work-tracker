@@ -11375,14 +11375,15 @@
     "qty": "2",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "1300.00",
+    "gst": "234.00",
+    "grand": "1534.00",
     "items": [
       {
         "part": "EALAL0000108",
         "qty": "2",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "650"
       }
     ],
     "date": "",
