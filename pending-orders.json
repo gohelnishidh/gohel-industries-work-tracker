@@ -1435,14 +1435,15 @@
     "qty": "9",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "59427.00",
+    "gst": "10696.86",
+    "grand": "70123.86",
     "items": [
       {
         "part": "EACLU0000028",
         "qty": "9",
-        "material": "Aluminium"
+        "material": "Aluminium",
+        "price": "6603"
       }
     ],
     "date": "",
