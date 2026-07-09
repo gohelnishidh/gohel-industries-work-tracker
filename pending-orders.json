@@ -11865,13 +11865,27 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/424",
+    "poDate": "2026-06-26",
     "part": "257199000307",
-    "poDate": "2026-26-06",
+    "customer": "Standard Radiators",
     "poRef": "POVD26000179",
     "qty": "100",
-    "id": "GI/OID/26/424",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "257199000307",
+        "qty": "100",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
