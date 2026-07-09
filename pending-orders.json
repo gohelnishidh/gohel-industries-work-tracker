@@ -11787,14 +11787,15 @@
     "qty": "260",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "44200.00",
+    "gst": "7956.00",
+    "grand": "52156.00",
     "items": [
       {
         "part": "33-21-511",
         "qty": "260",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "170"
       }
     ],
     "date": "",
