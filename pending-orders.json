@@ -11469,13 +11469,27 @@
     "notes": ""
   },
   {
-    "part": "ERDCU0050013",
+    "id": "GI/OID/26/407",
     "poDate": "2026-07-03",
+    "part": "ERDCU0050013",
+    "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0020349",
     "qty": "9",
-    "material": "aluminium",
-    "id": "GI/OID/26/407",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "ERDCU0050013",
+        "qty": "9",
+        "material": "Copper"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
