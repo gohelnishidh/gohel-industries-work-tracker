@@ -11737,14 +11737,15 @@
     "qty": "240",
     "material": "Stainless Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "14400.00",
+    "gst": "2592.00",
+    "grand": "16992.00",
     "items": [
       {
         "part": "33-21-462",
         "qty": "240",
-        "material": "Stainless Steel"
+        "material": "Stainless Steel",
+        "price": "60"
       }
     ],
     "date": "",
