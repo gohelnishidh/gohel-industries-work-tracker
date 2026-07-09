@@ -11615,14 +11615,15 @@
     "qty": "100",
     "material": "Mild Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "7800.00",
+    "gst": "1404.00",
+    "grand": "9204.00",
     "items": [
       {
         "part": "33-21-G74",
         "qty": "100",
-        "material": "Mild Steel"
+        "material": "Mild Steel",
+        "price": "78"
       }
     ],
     "date": "",
