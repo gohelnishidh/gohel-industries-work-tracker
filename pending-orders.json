@@ -11300,14 +11300,15 @@
     "qty": "3",
     "material": "Copper",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "22500.00",
+    "gst": "4050.00",
+    "grand": "26550.00",
     "items": [
       {
         "part": "EALCU000003S",
         "qty": "3",
-        "material": "Copper"
+        "material": "Copper",
+        "price": "7500"
       }
     ],
     "date": "",
