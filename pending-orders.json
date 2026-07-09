@@ -12039,15 +12039,15 @@
     "qty": "2",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "50498.08",
+    "gst": "9089.65",
+    "grand": "59587.73",
     "items": [
       {
         "part": "Flange Thiker Tube Prototype",
         "qty": "2",
         "material": "Aluminium",
-        "price": ""
+        "price": "25249.04"
       }
     ],
     "date": "",
