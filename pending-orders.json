@@ -11421,14 +11421,28 @@
     "notes": ""
   },
   {
-    "part": "EALCU0000006",
+    "id": "GI/OID/26/405",
     "poDate": "2026-07-03",
+    "part": "EALCU0000006",
+    "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0020349",
     "qty": "9",
-    "material": "aluminium",
-    "id": "GI/OID/26/405",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "EALCU0000006",
+        "qty": "9",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "EALCU0000009",
