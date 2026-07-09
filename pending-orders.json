@@ -11578,5 +11578,45 @@
     "material": "Brass",
     "priority": "Medium",
     "status": "Not Started"
+  },
+  {
+    "part": "CJ PIN SACB05642 AISID3",
+    "poDate": "2026-23-04",
+    "poRef": "PO/2627/00604",
+    "qty": "50",
+    "id": "GI/OID/26/417",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
+  },
+  {
+    "part": "CARDON ROD PIN SACB06242 AISID3",
+    "poDate": "2026-23-04",
+    "poRef": "PO/2627/00687",
+    "qty": "200",
+    "id": "GI/OID/26/418",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
+  },
+  {
+    "part": "CJ PIN SACB06242 AISID3",
+    "poDate": "2026-23-04",
+    "poRef": "PO/2627/00864",
+    "qty": "50",
+    "id": "GI/OID/26/419",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
+  },
+  {
+    "part": "CJ PIN SACB01201 AISI420 HT",
+    "poDate": "2026-30-06",
+    "poRef": "PO/2627/00895",
+    "qty": "500",
+    "id": "GI/OID/26/420",
+    "material": "Brass",
+    "priority": "Medium",
+    "status": "Not Started"
   }
 ]
