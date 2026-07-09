@@ -12004,30 +12004,5 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
-  },
-  {
-    "id": "GI/OID/26/425",
-    "poDate": "2026-07-09",
-    "part": "Aluminium Ring",
-    "customer": "Axel engineering solutions",
-    "poRef": "",
-    "qty": "200",
-    "material": "Aluminium",
-    "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
-    "items": [
-      {
-        "part": "Aluminium Ring",
-        "qty": "200",
-        "material": "Aluminium",
-        "price": ""
-      }
-    ],
-    "date": "",
-    "status": "Not Started",
-    "priority": "Medium",
-    "notes": ""
   }
 ]
