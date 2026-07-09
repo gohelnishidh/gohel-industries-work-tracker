@@ -12054,5 +12054,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/427",
+    "poDate": "2026-07-07",
+    "part": "023393-00 Fitting",
+    "customer": "KVAG GmbH & Co. KG",
+    "poRef": "4500063495",
+    "qty": "10",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "023393-00 Fitting",
+        "qty": "10",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
