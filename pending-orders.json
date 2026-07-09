@@ -11325,14 +11325,15 @@
     "qty": "3",
     "material": "Copper",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "200700.00",
+    "gst": "36126.00",
+    "grand": "236826.00",
     "items": [
       {
         "part": "ERDCU0050014",
         "qty": "3",
-        "material": "Copper"
+        "material": "Copper",
+        "price": "66900"
       }
     ],
     "date": "",
