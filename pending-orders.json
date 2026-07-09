@@ -12004,5 +12004,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/425",
+    "poDate": "2026-07-03",
+    "part": "Flange",
+    "customer": "KVAG GmbH & Co. KG",
+    "poRef": "2610095",
+    "qty": "2",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "Flange",
+        "qty": "2",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
