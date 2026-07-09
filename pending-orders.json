@@ -11181,14 +11181,28 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/395",
+    "poDate": "2026-06-26",
     "part": "ERDCU0050014",
-    "poDate": "2026-26-06",
+    "customer": "ECS Industries Pvt. Ltd.",
     "poRef": "P0020224",
     "qty": "3",
-    "material": "aluminium",
-    "id": "GI/OID/26/395",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "ERDCU0050014",
+        "qty": "3",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "EALAL0000082",
