@@ -12239,5 +12239,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/430",
+    "poDate": "2026-07-03",
+    "part": "23002215 CONDUCTOR ASSEMBLY 36kV 10000A",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "110305",
+    "qty": "10",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "23002215 CONDUCTOR ASSEMBLY 36kV 10000A",
+        "qty": "10",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
