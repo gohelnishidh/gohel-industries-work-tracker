@@ -8369,9 +8369,18 @@
       }
     ],
     "date": "2026-07-10",
-    "status": "Not Started",
+    "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 40,
+        "date": "2026-07-09",
+        "ref": "",
+        "value": "18751.14"
+      }
+    ],
+    "dispatched": 40
   },
   {
     "id": "GI/OID/26/282",
