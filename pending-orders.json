@@ -139,7 +139,16 @@
     "date": "",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 18,
+        "date": "2026-07-09",
+        "ref": "",
+        "value": "768388.22"
+      }
+    ],
+    "dispatched": 18
   },
   {
     "id": "GI/OID/26/07",
