@@ -8727,7 +8727,16 @@
     "date": "2026-08-30",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 52,
+        "date": "2026-07-10",
+        "ref": "",
+        "value": "2688.18"
+      }
+    ],
+    "dispatched": 52
   },
   {
     "id": "GI/OID/26/293",
