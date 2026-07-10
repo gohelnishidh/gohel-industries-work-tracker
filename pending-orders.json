@@ -11922,9 +11922,18 @@
       }
     ],
     "date": "",
-    "status": "Not Started",
+    "status": "Dispatched",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 50,
+        "date": "2026-07-10",
+        "ref": "60 nos dispatch",
+        "value": "0.00"
+      }
+    ],
+    "dispatched": 50
   },
   {
     "id": "GI/OID/26/418",
