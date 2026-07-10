@@ -139,7 +139,16 @@
     "date": "",
     "status": "In Progress",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 27,
+        "date": "2026-07-10",
+        "ref": "",
+        "value": "1152582.33"
+      }
+    ],
+    "dispatched": 27
   },
   {
     "id": "GI/OID/26/07",
