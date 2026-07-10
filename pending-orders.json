@@ -211,7 +211,7 @@
       }
     ],
     "date": "",
-    "status": "Ready",
+    "status": "Dispatched",
     "priority": "High",
     "notes": "3 nos ready",
     "dispatchLog": [
@@ -220,9 +220,15 @@
         "date": "2026-06-06",
         "ref": "",
         "value": "179859.54"
+      },
+      {
+        "qty": 3,
+        "date": "2026-07-09",
+        "ref": "",
+        "value": "89929.77"
       }
     ],
-    "dispatched": 6
+    "dispatched": 9
   },
   {
     "id": "GI/OID/26/09",
