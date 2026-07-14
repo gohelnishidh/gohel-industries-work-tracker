@@ -12655,5 +12655,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/438",
+    "poDate": "2026-07-14",
+    "part": "YSLVE-128",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "Inventory",
+    "qty": "4",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "YSLVE-128",
+        "qty": "4",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Ready",
+    "priority": "Low",
+    "notes": ""
   }
 ]
