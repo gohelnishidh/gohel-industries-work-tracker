@@ -12524,5 +12524,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/433",
+    "poDate": "2026-07-10",
+    "part": "GRP001718 PIPE- RAD",
+    "customer": "Banco Products (I) Limited",
+    "poRef": "1110023047",
+    "qty": "300",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "GRP001718 PIPE- RAD",
+        "qty": "300",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
