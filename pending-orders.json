@@ -12474,5 +12474,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/431",
+    "poDate": "2026-07-14",
+    "part": "GMA008426 BLOCK FOR MAKE-UP-RAD",
+    "customer": "Banco Products (I) Limited",
+    "poRef": "1110023047",
+    "qty": "184",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "GMA008426 BLOCK FOR MAKE-UP-RAD",
+        "qty": "184",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
