@@ -7869,33 +7869,21 @@
   {
     "id": "GI/OID/26/264",
     "poDate": "2026-05-15",
-    "part": "YKITB0000016 +2 more",
+    "part": "YKITB0000016",
     "customer": "Yash Highvoltage Ltd.",
     "poRef": "P0026690",
-    "qty": "109",
+    "qty": "57",
     "material": "Brass",
     "price": "",
-    "total": "326932.00",
-    "gst": "58847.76",
-    "grand": "385779.76",
+    "total": "152304.00",
+    "gst": "27414.72",
+    "grand": "179718.72",
     "items": [
       {
         "part": "YKITB0000016",
         "qty": "57",
         "material": "Brass",
         "price": "2672"
-      },
-      {
-        "part": "YKITB0000312",
-        "qty": "28",
-        "material": "Aluminium",
-        "price": "2353"
-      },
-      {
-        "part": "YKITB0000322",
-        "qty": "24",
-        "material": "Aluminium",
-        "price": "4531"
       }
     ],
     "date": "",
