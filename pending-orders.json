@@ -12527,15 +12527,15 @@
     "qty": "96",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "14414.40",
+    "gst": "2594.59",
+    "grand": "17008.99",
     "items": [
       {
         "part": "GMA008427 BLOCK FOR MAKE-UP-RAD",
         "qty": "96",
         "material": "Aluminium",
-        "price": ""
+        "price": "150.150"
       }
     ],
     "date": "",
