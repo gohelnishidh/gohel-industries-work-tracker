@@ -12552,15 +12552,15 @@
     "qty": "300",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "19200.00",
+    "gst": "3456.00",
+    "grand": "22656.00",
     "items": [
       {
         "part": "GRP001718 PIPE- RAD",
         "qty": "300",
         "material": "Aluminium",
-        "price": ""
+        "price": "64"
       }
     ],
     "date": "",
