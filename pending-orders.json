@@ -12624,5 +12624,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/437",
+    "poDate": "2026-07-14",
+    "part": "ENCLOSURE 38 KV",
+    "customer": "Baroda Bushings & Insulators LLP",
+    "poRef": "SAMPLE",
+    "qty": "1",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "ENCLOSURE 38 KV",
+        "qty": "1",
+        "material": "Copper",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
