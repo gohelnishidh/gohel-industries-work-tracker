@@ -694,7 +694,16 @@
     "date": "",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 9,
+        "date": "2026-07-15",
+        "ref": "",
+        "value": "33314.94"
+      }
+    ],
+    "dispatched": 9
   },
   {
     "id": "GI/OID/26/23",
