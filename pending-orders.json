@@ -12458,15 +12458,15 @@
     "qty": "10",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "37000.00",
+    "gst": "6660.00",
+    "grand": "43660.00",
     "items": [
       {
         "part": "23002215",
         "qty": "10",
         "material": "Aluminium",
-        "price": ""
+        "price": "3700"
       }
     ],
     "date": "",
