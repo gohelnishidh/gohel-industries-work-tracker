@@ -12733,15 +12733,15 @@
     "qty": "26",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "159536.00",
+    "gst": "28716.48",
+    "grand": "188252.48",
     "items": [
       {
         "part": "23002174 CENTER PIPE 245 kV 800 A 300 CT             ",
         "qty": "26",
         "material": "Aluminium",
-        "price": ""
+        "price": "6136"
       }
     ],
     "date": "",
