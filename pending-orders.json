@@ -13558,5 +13558,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/473",
+    "poDate": "2026-07-16",
+    "part": "BB ch.no.545",
+    "customer": "Excellent Engineering Corporation",
+    "poRef": "EEC/RM/R/29/26-27",
+    "qty": "3264",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "42432.00",
+    "gst": "7637.76",
+    "grand": "50069.76",
+    "items": [
+      {
+        "part": "BB ch.no.545",
+        "qty": "3264",
+        "material": "Stainless Steel",
+        "price": "13"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
