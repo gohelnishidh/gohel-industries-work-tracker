@@ -13537,24 +13537,24 @@
   {
     "id": "GI/OID/26/472",
     "poDate": "2026-07-16",
-    "part": "BB chno.544",
+    "part": "SB chno.545",
     "customer": "Excellent Engineering Corporation",
     "poRef": "EEC/RM/R/29/26-27",
-    "qty": "2250",
+    "qty": "3264",
     "material": "Stainless Steel",
     "price": "",
-    "total": "27112.50",
-    "gst": "4880.25",
-    "grand": "31992.75",
+    "total": "42432.00",
+    "gst": "7637.76",
+    "grand": "50069.76",
     "items": [
       {
-        "part": "BB chno.544",
-        "qty": "2250",
+        "part": "SB chno.545",
+        "qty": "3264",
         "material": "Stainless Steel",
-        "price": "12.05"
+        "price": "13"
       }
     ],
-    "date": "",
+    "date": "2026-08-25",
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
