@@ -13409,13 +13409,27 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/467",
+    "poDate": "",
     "part": "239031002634",
-    "poDate": "2026-15-07",
+    "customer": "Standard Radiators",
     "poRef": "SIGST26000372",
     "qty": "112",
-    "id": "GI/OID/26/467",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "239031002634",
+        "qty": "112",
+        "material": "Aluminium"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   }
 ]
