@@ -10155,15 +10155,15 @@
     "qty": "1025",
     "material": "Mild Steel",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "36900.00",
+    "gst": "6642.00",
+    "grand": "43542.00",
     "items": [
       {
         "part": "Pin",
         "qty": "1025",
         "material": "Mild Steel",
-        "price": ""
+        "price": "36"
       }
     ],
     "date": "",
