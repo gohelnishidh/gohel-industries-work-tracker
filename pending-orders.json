@@ -13462,7 +13462,7 @@
   {
     "id": "GI/OID/26/469",
     "poDate": "2026-07-16",
-    "part": "SB ch no.543",
+    "part": "ch no.543",
     "customer": "Excellent Engineering Corporation",
     "poRef": "EEC/RM/R/29/26-27",
     "qty": "1390",
@@ -13473,7 +13473,7 @@
     "grand": "18435.85",
     "items": [
       {
-        "part": "SB ch no.543",
+        "part": "ch no.543",
         "qty": "1390",
         "material": "Stainless Steel",
         "price": "11.24"
