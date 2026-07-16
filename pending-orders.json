@@ -13508,5 +13508,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/471",
+    "poDate": "2026-07-16",
+    "part": "BB chno. 544",
+    "customer": "Excellent Engineering Corporation",
+    "poRef": "EEC/RM/R/29/26-27",
+    "qty": "2250",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "27112.50",
+    "gst": "4880.25",
+    "grand": "31992.75",
+    "items": [
+      {
+        "part": "BB chno. 544",
+        "qty": "2250",
+        "material": "Stainless Steel",
+        "price": "12.05"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
