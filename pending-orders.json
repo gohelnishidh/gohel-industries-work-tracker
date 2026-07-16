@@ -12708,15 +12708,15 @@
     "qty": "50",
     "material": "Aluminium",
     "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
+    "total": "145550.00",
+    "gst": "26199.00",
+    "grand": "171749.00",
     "items": [
       {
         "part": "23002163 CENTER PIPE 100 KV 800 A 100 CT",
         "qty": "50",
         "material": "Aluminium",
-        "price": ""
+        "price": "2911"
       }
     ],
     "date": "",
