@@ -12723,5 +12723,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/440",
+    "poDate": "2026-07-14",
+    "part": "23002174 CENTER PIPE 245 kV 800 A 300 CT             ",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "7400000169",
+    "qty": "26",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "23002174 CENTER PIPE 245 kV 800 A 300 CT             ",
+        "qty": "26",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
