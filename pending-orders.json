@@ -13309,14 +13309,29 @@
     "notes": ""
   },
   {
+    "id": "GI/OID/26/463",
+    "poDate": "2026-07-10",
     "part": "238124000590",
-    "poDate": "2026-10-07",
+    "customer": "Standard Radiators",
     "poRef": "PUAL26001328",
     "qty": "60",
-    "id": "GI/OID/26/463",
-    "material": "Brass",
+    "material": "Aluminium",
+    "price": "",
+    "total": "20253.00",
+    "gst": "3645.54",
+    "grand": "23898.54",
+    "items": [
+      {
+        "part": "238124000590",
+        "qty": "60",
+        "material": "Aluminium",
+        "price": "337.55"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
     "priority": "Medium",
-    "status": "Not Started"
+    "notes": ""
   },
   {
     "part": "238124000703",
