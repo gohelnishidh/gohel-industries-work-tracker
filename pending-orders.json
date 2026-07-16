@@ -13633,5 +13633,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/476",
+    "poDate": "2026-07-16",
+    "part": "SB chno.547",
+    "customer": "Excellent Engineering Corporation",
+    "poRef": "EEC/RM/R/29/26-27",
+    "qty": "2080",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "25064.00",
+    "gst": "4511.52",
+    "grand": "29575.52",
+    "items": [
+      {
+        "part": "SB chno.547",
+        "qty": "2080",
+        "material": "Stainless Steel",
+        "price": "12.05"
+      }
+    ],
+    "date": "2026-08-25",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
