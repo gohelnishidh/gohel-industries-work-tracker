@@ -12773,5 +12773,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/442",
+    "poDate": "2026-06-13",
+    "part": "F7723500013 spur gear 4m 28t 20PA 25FW",
+    "customer": "Acepack Technologies",
+    "poRef": "PO/2627/2000491",
+    "qty": "1",
+    "material": "Stainless Steel",
+    "price": "",
+    "total": "2500.00",
+    "gst": "450.00",
+    "grand": "2950.00",
+    "items": [
+      {
+        "part": "F7723500013 spur gear 4m 28t 20PA 25FW",
+        "qty": "1",
+        "material": "Stainless Steel",
+        "price": "2500"
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
