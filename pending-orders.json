@@ -12698,5 +12698,30 @@
     "status": "Ready",
     "priority": "Low",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/439",
+    "poDate": "2026-07-14",
+    "part": "23002163 CENTER PIPE 100 KV 800 A 100 CT",
+    "customer": "Yash Highvoltage Ltd.",
+    "poRef": "7400000168",
+    "qty": "50",
+    "material": "Aluminium",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "23002163 CENTER PIPE 100 KV 800 A 100 CT",
+        "qty": "50",
+        "material": "Aluminium",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
