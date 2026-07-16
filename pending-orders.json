@@ -12611,31 +12611,6 @@
     "notes": ""
   },
   {
-    "id": "GI/OID/26/434",
-    "poDate": "2026-07-09",
-    "part": "YACND0000256",
-    "customer": "Yash Highvoltage Ltd.",
-    "poRef": "",
-    "qty": "50",
-    "material": "Aluminium",
-    "price": "",
-    "total": "0.00",
-    "gst": "0.00",
-    "grand": "0.00",
-    "items": [
-      {
-        "part": "YACND0000256",
-        "qty": "50",
-        "material": "Aluminium",
-        "price": ""
-      }
-    ],
-    "date": "",
-    "status": "Not Started",
-    "priority": "Medium",
-    "notes": ""
-  },
-  {
     "id": "GI/OID/26/435",
     "poDate": "2026-07-10",
     "part": "YACND0000274",
