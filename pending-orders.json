@@ -12299,7 +12299,16 @@
     "date": "",
     "status": "Not Started",
     "priority": "Medium",
-    "notes": ""
+    "notes": "",
+    "dispatchLog": [
+      {
+        "qty": 61,
+        "date": "2026-07-17",
+        "ref": "",
+        "value": "0.00"
+      }
+    ],
+    "dispatched": 61
   },
   {
     "id": "GI/OID/26/422",
