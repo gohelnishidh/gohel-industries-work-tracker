@@ -13904,5 +13904,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/483",
+    "poDate": "2026-07-21",
+    "part": "Copper 110x110",
+    "customer": "Baroda Bushings & Insulators LLP",
+    "poRef": "",
+    "qty": "2",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "Copper 110x110",
+        "qty": "2",
+        "material": "Copper",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
