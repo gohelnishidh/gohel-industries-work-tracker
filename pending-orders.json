@@ -13879,5 +13879,30 @@
     "status": "Not Started",
     "priority": "Medium",
     "notes": ""
+  },
+  {
+    "id": "GI/OID/26/482",
+    "poDate": "2026-07-21",
+    "part": "Palm  100x12x20",
+    "customer": "Baroda Bushings & Insulators LLP",
+    "poRef": "",
+    "qty": "2",
+    "material": "Copper",
+    "price": "",
+    "total": "0.00",
+    "gst": "0.00",
+    "grand": "0.00",
+    "items": [
+      {
+        "part": "Palm  100x12x20",
+        "qty": "2",
+        "material": "Copper",
+        "price": ""
+      }
+    ],
+    "date": "",
+    "status": "Not Started",
+    "priority": "Medium",
+    "notes": ""
   }
 ]
